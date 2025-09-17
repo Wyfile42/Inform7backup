@@ -1,0 +1,2202 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1067">
+    <generator>Inform Mac Client (Inform version 1.82/6.41/10.1.2)</generator>
+    <item nodeId="node-1067">
+        <command xml:space="preserve">EscapingABedExample</command>
+        <result xml:space="preserve">
+
+
+
+Today is the day! You just know it! You are going to escape the bed!
+
+Escaping A Container
+An Interactive Fiction by Alix Leonhart
+Release 1 / Serial number 250914 / Inform 7 v10.1.2 / D
+
+Bedroom (in bed)
+It's my person's old bedroom
+
+You can see basket (empty) here.
+
+In bed you can see decorative pillow (on which are stuffed animal and pillow mint).
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1261"></child>
+            <child nodeId="node-1197"></child>
+            <child nodeId="node-1178"></child>
+            <child nodeId="node-1177"></child>
+            <child nodeId="node-1168"></child>
+            <child nodeId="node-1164"></child>
+            <child nodeId="node-1160"></child>
+            <child nodeId="node-1159"></child>
+            <child nodeId="node-1158"></child>
+            <child nodeId="node-1143"></child>
+            <child nodeId="node-1134"></child>
+            <child nodeId="node-1126"></child>
+            <child nodeId="node-1096"></child>
+            <child nodeId="node-1068"></child>
+        </children>
+    </item>
+    <item nodeId="node-1068">
+        <command xml:space="preserve">x pillow</command>
+        <result xml:space="preserve">Which do you mean, decorative pillow or pillow mint?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1069"></child>
+        </children>
+    </item>
+    <item nodeId="node-1069">
+        <command xml:space="preserve">decorative pillow</command>
+        <result xml:space="preserve">An aesthetic, if uncomfortable, pillow in a cross-stitched sham.
+
+On decorative pillow are stuffed animal and pillow mint.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1070"></child>
+        </children>
+    </item>
+    <item nodeId="node-1070">
+        <command xml:space="preserve">x sham</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1071"></child>
+        </children>
+    </item>
+    <item nodeId="node-1071">
+        <command xml:space="preserve">x animal</command>
+        <result xml:space="preserve">A cute &amp; quirky anthropomorphized creature.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1072"></child>
+        </children>
+    </item>
+    <item nodeId="node-1072">
+        <command xml:space="preserve">take animal</command>
+        <result xml:space="preserve">You implore the friendly beast of wonkiness to leave the decorative pillow it is set upon
+"I am actually quite comfortable here, is there anything you can give me to sweeten the deal?" says the stuffed animal (yes/no)
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1073"></child>
+        </children>
+    </item>
+    <item nodeId="node-1073">
+        <command xml:space="preserve">no</command>
+        <result xml:space="preserve">Plushie says "Well then I am not moving!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1074"></child>
+        </children>
+    </item>
+    <item nodeId="node-1074">
+        <command xml:space="preserve">take mint</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1075"></child>
+        </children>
+    </item>
+    <item nodeId="node-1075">
+        <command xml:space="preserve">take animal</command>
+        <result xml:space="preserve">You implore the friendly beast of wonkiness to leave the decorative pillow it is set upon
+"I am actually quite comfortable here, is there anything you can give me to sweeten the deal?" says the stuffed animal (yes/no)
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1076"></child>
+        </children>
+    </item>
+    <item nodeId="node-1076">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">Giving the pillow mint over to the stuffed animal plushie,
+They say "Aw thank you so much, I'll hop off it now!"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1077"></child>
+        </children>
+    </item>
+    <item nodeId="node-1077">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">(basket)
+A laundry basket beside the bed.
+
+There must be a way off this bed!
+Perhaps you can lure the plushi off the pillow with a treat
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1078"></child>
+        </children>
+    </item>
+    <item nodeId="node-1078">
+        <command xml:space="preserve">x animal</command>
+        <result xml:space="preserve">A cute &amp; quirky anthropomorphized creature.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1079"></child>
+        </children>
+    </item>
+    <item nodeId="node-1079">
+        <command xml:space="preserve">x pillow</command>
+        <result xml:space="preserve">Which do you mean, decorative pillow or pillow mint?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1080"></child>
+        </children>
+    </item>
+    <item nodeId="node-1080">
+        <command xml:space="preserve">decorative</command>
+        <result xml:space="preserve">An aesthetic, if uncomfortable, pillow in a cross-stitched sham.
+
+On decorative pillow is stuffed animal.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1081"></child>
+        </children>
+    </item>
+    <item nodeId="node-1081">
+        <command xml:space="preserve">x mint</command>
+        <result xml:space="preserve">A small tasty mint candy.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1082"></child>
+        </children>
+    </item>
+    <item nodeId="node-1082">
+        <command xml:space="preserve">take mint</command>
+        <result xml:space="preserve">That seems to belong to stuffed animal.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1083"></child>
+        </children>
+    </item>
+    <item nodeId="node-1083">
+        <command xml:space="preserve">talk to animal</command>
+        <result xml:space="preserve">You implore the friendly beast of wonkiness to leave the decorative pillow it is set upon
+The plushie says "Sure anything for my friend!" and hops down onto the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1084"></child>
+        </children>
+    </item>
+    <item nodeId="node-1084">
+        <command xml:space="preserve">x animal</command>
+        <result xml:space="preserve">A cute &amp; quirky anthropomorphized creature.
+
+There must be a way off this bed!
+Perhaps the pillow in the basket would make it soft enough to land a jump.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1085"></child>
+        </children>
+    </item>
+    <item nodeId="node-1085">
+        <command xml:space="preserve">push pillow</command>
+        <result xml:space="preserve">Which do you mean, pillow mint or decorative pillow?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1086"></child>
+        </children>
+    </item>
+    <item nodeId="node-1086">
+        <command xml:space="preserve">decorative</command>
+        <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1087"></child>
+        </children>
+    </item>
+    <item nodeId="node-1087">
+        <command xml:space="preserve">take pillow</command>
+        <result xml:space="preserve">Which do you mean, pillow mint or decorative pillow?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1088"></child>
+        </children>
+    </item>
+    <item nodeId="node-1088">
+        <command xml:space="preserve">decorative</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1089"></child>
+        </children>
+    </item>
+    <item nodeId="node-1089">
+        <command xml:space="preserve">toss pillow into basket</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1090"></child>
+        </children>
+    </item>
+    <item nodeId="node-1090">
+        <command xml:space="preserve">toss pillow</command>
+        <result xml:space="preserve">(decorative pillow at decorative pillow)
+Futile.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1091"></child>
+        </children>
+    </item>
+    <item nodeId="node-1091">
+        <command xml:space="preserve">toss decorative pillow at basket</command>
+        <result xml:space="preserve">you hurl the decorative pillow the best you can, but it ends up being really more of a tumbling push. It still lands in the basket.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1092"></child>
+        </children>
+    </item>
+    <item nodeId="node-1092">
+        <command xml:space="preserve">jump into basket</command>
+        <result xml:space="preserve">I only understood you as far as wanting to jump.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1093"></child>
+        </children>
+    </item>
+    <item nodeId="node-1093">
+        <command xml:space="preserve">jump at basket</command>
+        <result xml:space="preserve">I only understood you as far as wanting to jump.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1094"></child>
+        </children>
+    </item>
+    <item nodeId="node-1094">
+        <command xml:space="preserve">jump to basket</command>
+        <result xml:space="preserve">I only understood you as far as wanting to jump.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1095"></child>
+        </children>
+    </item>
+    <item nodeId="node-1095">
+        <command xml:space="preserve">jump off bed</command>
+        <result xml:space="preserve">You triumphantly leap from the bed, steeling yourself, waving to the plushie waving and... land softly on the pillow!
+Climbing down from the basket you are now on the bedroom floor!
+
+
+
+    *** Hooray and Congratulations! You've escaped the bed! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1096">
+        <command xml:space="preserve">talk to plushie</command>
+        <result xml:space="preserve">You implore the friendly beast of wonkiness to leave the decorative pillow it is set upon
+"I am actually quite comfortable here, is there anything you can give me to sweeten the deal?" says the stuffed animal (yes/no)
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1097"></child>
+        </children>
+    </item>
+    <item nodeId="node-1097">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">"Meh and hurmph! You have nothing of interest to my sweet-tooth." says the stuffed animal
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1098"></child>
+        </children>
+    </item>
+    <item nodeId="node-1098">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Bedroom (in bed)
+My old bedroom
+
+You can see basket (empty) here.
+
+In bed you can see decorative pillow (on which are stuffed animal and pillow mint).
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1099"></child>
+        </children>
+    </item>
+    <item nodeId="node-1099">
+        <command xml:space="preserve">x mint</command>
+        <result xml:space="preserve">A small tasty mint candy.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1100"></child>
+        </children>
+    </item>
+    <item nodeId="node-1100">
+        <command xml:space="preserve">take mint</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1101"></child>
+        </children>
+    </item>
+    <item nodeId="node-1101">
+        <command xml:space="preserve">talke to plushie</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1102"></child>
+        </children>
+    </item>
+    <item nodeId="node-1102">
+        <command xml:space="preserve">talk to plushie</command>
+        <result xml:space="preserve">You implore the friendly beast of wonkiness to leave the decorative pillow it is set upon
+"I am actually quite comfortable here, is there anything you can give me to sweeten the deal?" says the stuffed animal (yes/no)
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1103"></child>
+        </children>
+    </item>
+    <item nodeId="node-1103">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">Giving the pillow mint over to the stuffed animal plushie,
+They say "Aw thank you so much, I'll hop off it now!"
+
+There must be a way off this bed!
+Perhaps you can lure the plushi off the pillow with a treat
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1104"></child>
+        </children>
+    </item>
+    <item nodeId="node-1104">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">(bed)
+There is a basket you can jump into from the bed, but you can't jump from here currently as the landing would be to hard!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1105"></child>
+        </children>
+    </item>
+    <item nodeId="node-1105">
+        <command xml:space="preserve">jump off bed</command>
+        <result xml:space="preserve">There is a basket you can jump into from the bed, but you can't jump from here currently as the landing would be to hard!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1106"></child>
+        </children>
+    </item>
+    <item nodeId="node-1106">
+        <command xml:space="preserve">jump off bed</command>
+        <result xml:space="preserve">There is a basket you can jump into from the bed, but you can't jump from here currently as the landing would be to hard!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1107"></child>
+        </children>
+    </item>
+    <item nodeId="node-1107">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">(bed)
+There is a basket you can jump into from the bed, but you can't jump from here currently as the landing would be to hard!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1108"></child>
+        </children>
+    </item>
+    <item nodeId="node-1108">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Bedroom (in bed)
+My old bedroom
+
+You can see basket (empty) here.
+
+In bed you can see decorative pillow (on which is stuffed animal).
+
+There must be a way off this bed!
+Perhaps you can lure the plushi off the pillow with a treat
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1109"></child>
+        </children>
+    </item>
+    <item nodeId="node-1109">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1110"></child>
+        </children>
+    </item>
+    <item nodeId="node-1110">
+        <command xml:space="preserve">talk to pl;ushie</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1111"></child>
+        </children>
+    </item>
+    <item nodeId="node-1111">
+        <command xml:space="preserve">talk to plushie</command>
+        <result xml:space="preserve">You implore the friendly beast of wonkiness to leave the decorative pillow it is set upon
+The plushie says "Sure anything for my friend!"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1112"></child>
+        </children>
+    </item>
+    <item nodeId="node-1112">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Bedroom (in bed)
+My old bedroom
+
+You can see basket (empty) here.
+
+In bed you can see stuffed animal and decorative pillow.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1113"></child>
+        </children>
+    </item>
+    <item nodeId="node-1113">
+        <command xml:space="preserve">take pillow</command>
+        <result xml:space="preserve">Which do you mean, pillow mint or decorative pillow?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1114"></child>
+        </children>
+    </item>
+    <item nodeId="node-1114">
+        <command xml:space="preserve">mint</command>
+        <result xml:space="preserve">That seems to belong to stuffed animal.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1115"></child>
+        </children>
+    </item>
+    <item nodeId="node-1115">
+        <command xml:space="preserve">take pillow</command>
+        <result xml:space="preserve">Which do you mean, pillow mint or decorative pillow?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1116"></child>
+        </children>
+    </item>
+    <item nodeId="node-1116">
+        <command xml:space="preserve">decorative</command>
+        <result xml:space="preserve">Taken.
+
+There must be a way off this bed!
+Perhaps the pillow in the basket would make it soft enough to land a jump.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1117"></child>
+        </children>
+    </item>
+    <item nodeId="node-1117">
+        <command xml:space="preserve">take decorative pillow</command>
+        <result xml:space="preserve">You already have that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1118"></child>
+        </children>
+    </item>
+    <item nodeId="node-1118">
+        <command xml:space="preserve">throw pillow at basket</command>
+        <result xml:space="preserve">(decorative pillow at basket)
+you hurl the decorative pillow the best you can, but it ends up being really more of a tumbling push. It still lands in the basket.
+
+Futile.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1119"></child>
+        </children>
+    </item>
+    <item nodeId="node-1119">
+        <command xml:space="preserve">toss pillow</command>
+        <result xml:space="preserve">Which do you mean, decorative pillow or pillow mint?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1120"></child>
+        </children>
+    </item>
+    <item nodeId="node-1120">
+        <command xml:space="preserve">toss pillow at basket</command>
+        <result xml:space="preserve">Which do you mean, decorative pillow or pillow mint?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1121"></child>
+        </children>
+    </item>
+    <item nodeId="node-1121">
+        <command xml:space="preserve">jump off bed</command>
+        <result xml:space="preserve">You triumphantly leap from the bed, steeling yourself, waving to the plushie waving and... 
+ land softly on the pillow!
+Climbing down fromthe basket you are now on the bedroom floor!
+
+Bedroom
+My old bedroom
+
+You can see basket (in which is decorative pillow) here.
+
+
+
+    *** Hooray and Congratulations! You've escaped the bed! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1122"></child>
+        </children>
+    </item>
+    <item nodeId="node-1122">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1123"></child>
+        </children>
+    </item>
+    <item nodeId="node-1123">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1124"></child>
+        </children>
+    </item>
+    <item nodeId="node-1124">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1125"></child>
+        </children>
+    </item>
+    <item nodeId="node-1125">
+        <command xml:space="preserve">throw decorative pillow at basket</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1126">
+        <command xml:space="preserve">take plushie</command>
+        <result xml:space="preserve">You implore the friendly beast of wonkiness to leave the decorative pillow it is set upon
+"I am actually quite comfortable here, is there anything you can give me to sweeten the deal?" says the stuffed animal (yes/no)
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1127"></child>
+        </children>
+    </item>
+    <item nodeId="node-1127">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1128"></child>
+        </children>
+    </item>
+    <item nodeId="node-1128">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1129"></child>
+        </children>
+    </item>
+    <item nodeId="node-1129">
+        <command xml:space="preserve">no</command>
+        <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1130"></child>
+        </children>
+    </item>
+    <item nodeId="node-1130">
+        <command xml:space="preserve">hop</command>
+        <result xml:space="preserve">You jump on the spot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1131"></child>
+        </children>
+    </item>
+    <item nodeId="node-1131">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying nothing.
+
+There must be a way off this bed!
+Perhaps you can lure the plushi off the pillow with a treat
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1132"></child>
+        </children>
+    </item>
+    <item nodeId="node-1132">
+        <command xml:space="preserve">talk to plushie</command>
+        <result xml:space="preserve">You implore the friendly beast of wonkiness to leave the decorative pillow it is set upon
+"I am actually quite comfortable here, is there anything you can give me to sweeten the deal?" says the stuffed animal (yes/no)
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1133"></child>
+        </children>
+    </item>
+    <item nodeId="node-1133">
+        <command xml:space="preserve">no</command>
+        <result xml:space="preserve">Plushie says "Well then I am not moving!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1134">
+        <command xml:space="preserve">take mint</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1135"></child>
+        </children>
+    </item>
+    <item nodeId="node-1135">
+        <command xml:space="preserve">give mint to plushie</command>
+        <result xml:space="preserve">The Plushie is visibly excited saying "Oh goodness! Thank you so much! Please let me know if I can ever do anything to return the favor!"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1136"></child>
+        </children>
+    </item>
+    <item nodeId="node-1136">
+        <command xml:space="preserve">talk to plushie</command>
+        <result xml:space="preserve">You implore the friendly beast of wonkiness to leave the decorative pillow it is set upon
+The plushie says "Sure anything for my friend!" and hops down onto the bed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1137"></child>
+        </children>
+    </item>
+    <item nodeId="node-1137">
+        <command xml:space="preserve">no</command>
+        <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1138"></child>
+        </children>
+    </item>
+    <item nodeId="node-1138">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1139"></child>
+        </children>
+    </item>
+    <item nodeId="node-1139">
+        <command xml:space="preserve">throw pillow at basket</command>
+        <result xml:space="preserve">Which do you mean, pillow mint or decorative pillow?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1140"></child>
+        </children>
+    </item>
+    <item nodeId="node-1140">
+        <command xml:space="preserve">decorative</command>
+        <result xml:space="preserve">(first taking decorative pillow)
+you hurl the decorative pillow the best you can, but it ends up being really more of a tumbling push. It still lands in the basket.
+
+There must be a way off this bed!
+It might be time to try jumping into the basket!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1141"></child>
+        </children>
+    </item>
+    <item nodeId="node-1141">
+        <command xml:space="preserve">jump</command>
+        <result xml:space="preserve">You jump on the spot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1142"></child>
+        </children>
+    </item>
+    <item nodeId="node-1142">
+        <command xml:space="preserve">jump off bed</command>
+        <result xml:space="preserve">You triumphantly leap from the bed, steeling yourself, waving to the plushie waving and... land softly on the pillow!
+Climbing down from the basket you are now on the bedroom floor!
+
+
+
+    *** Hooray and Congratulations! You've escaped the bed! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1143">
+        <command xml:space="preserve">take candy</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1144"></child>
+        </children>
+    </item>
+    <item nodeId="node-1144">
+        <command xml:space="preserve">give candy to stuffed animal</command>
+        <result xml:space="preserve">The Plushie is visibly excited saying "Oh goodness! Thank you so much! Please let me know if I can ever do anything to return the favor!"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1151"></child>
+            <child nodeId="node-1145"></child>
+        </children>
+    </item>
+    <item nodeId="node-1145">
+        <command xml:space="preserve">talk to plushie</command>
+        <result xml:space="preserve">You implore the friendly beast of wonkiness to leave the decorative pillow it is set upon
+"I am actually quite comfortable here, is there anything you can give me to sweeten the deal?" says the stuffed animal (yes/no)
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1146"></child>
+        </children>
+    </item>
+    <item nodeId="node-1146">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">Giving the pillow mint over to the stuffed animal plushie,
+They say "Aw thank you so much, I'll hop off it now!"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1147"></child>
+        </children>
+    </item>
+    <item nodeId="node-1147">
+        <command xml:space="preserve">take pillow</command>
+        <result xml:space="preserve">Which do you mean, decorative pillow or pillow mint?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1148"></child>
+        </children>
+    </item>
+    <item nodeId="node-1148">
+        <command xml:space="preserve">decorative</command>
+        <result xml:space="preserve">You can't reach decorative pillow from here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1149"></child>
+        </children>
+    </item>
+    <item nodeId="node-1149">
+        <command xml:space="preserve">take decorative pillow</command>
+        <result xml:space="preserve">You can't reach decorative pillow from here.
+
+There must be a way off this bed!
+Perhaps you can lure the plushi off the pillow with a treat
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1150"></child>
+        </children>
+    </item>
+    <item nodeId="node-1150">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Bedroom (in bed)
+My old bedroom
+
+You can see basket (in which is decorative pillow (on which is stuffed animal)) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1151">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Bedroom (in bed)
+My old bedroom
+
+You can see basket (empty) here.
+
+In bed you can see decorative pillow (on which is stuffed animal).
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1152"></child>
+        </children>
+    </item>
+    <item nodeId="node-1152">
+        <command xml:space="preserve">talk to  plushie</command>
+        <result xml:space="preserve">You implore the friendly beast of wonkiness to leave the decorative pillow it is set upon
+"I am actually quite comfortable here, is there anything you can give me to sweeten the deal?" says the stuffed animal (yes/no)
+</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1153"></child>
+        </children>
+    </item>
+    <item nodeId="node-1153">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">Giving the pillow mint over to the stuffed animal plushie,
+They say "Aw thank you so much, I'll hop off it now!"
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1154"></child>
+        </children>
+    </item>
+    <item nodeId="node-1154">
+        <command xml:space="preserve">take pillow</command>
+        <result xml:space="preserve">Which do you mean, decorative pillow or pillow mint?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1155"></child>
+        </children>
+    </item>
+    <item nodeId="node-1155">
+        <command xml:space="preserve">decorative</command>
+        <result xml:space="preserve">Taken.
+
+There must be a way off this bed!
+Perhaps you can lure the plushi off the pillow with a treat
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1156"></child>
+        </children>
+    </item>
+    <item nodeId="node-1156">
+        <command xml:space="preserve">throw pillow at basket</command>
+        <result xml:space="preserve">(decorative pillow at basket)
+you hurl the decorative pillow the best you can, but it ends up being really more of a tumbling push. It still lands in the basket.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1157"></child>
+        </children>
+    </item>
+    <item nodeId="node-1157">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">(bed)
+You triumphantly leap from the bed, steeling yourself, waving to the plushie waving and... land softly on the pillow!
+Climbing down from the basket you are now on the bedroom floor!
+
+
+
+    *** Hooray and Congratulations! You've escaped the bed! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1158">
+        <command xml:space="preserve">take bricks</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1159">
+        <command xml:space="preserve">hop off bed</command>
+        <result xml:space="preserve">There is a basket you can jump into from the bed, but you can't jump from here currently as the landing would be to hard!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1160">
+        <command xml:space="preserve">hop</command>
+        <result xml:space="preserve">You jump on the spot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1161"></child>
+        </children>
+    </item>
+    <item nodeId="node-1161">
+        <command xml:space="preserve">enter elevator</command>
+        <result xml:space="preserve">You enter the rickety elevator and as soon as you turn to face the old lift handle, the elevator lurches down a few feet and the door grill slams shut!
+
+You get into elevator.
+
+In elevator you can see lever handle and Bag of bricks.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1162"></child>
+        </children>
+    </item>
+    <item nodeId="node-1162">
+        <command xml:space="preserve">hop</command>
+        <result xml:space="preserve">You jump on the spot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1163"></child>
+        </children>
+    </item>
+    <item nodeId="node-1163">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">(elevator)
+You can't the elevator door is stuck tight, maybe if the elevator can be raised up to it's normal resting location.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1164">
+        <command xml:space="preserve">go in elevator</command>
+        <result xml:space="preserve">You enter the rickety elevator and as soon as you turn to face the old lift handle, the door slams shut!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1165"></child>
+        </children>
+    </item>
+    <item nodeId="node-1165">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Hotel Lobby
+An old timey hotel with only one thing of interest -
+...a wonky sissor hinge ancient elevator.
+
+You can see elevator (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1166"></child>
+        </children>
+    </item>
+    <item nodeId="node-1166">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">But you aren't in anything at the moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1167"></child>
+        </children>
+    </item>
+    <item nodeId="node-1167">
+        <command xml:space="preserve">enter elevator</command>
+        <result xml:space="preserve">You enter the rickety elevator and as soon as you turn to face the old lift handle, the door slams shut!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1168">
+        <command xml:space="preserve">get in elevator</command>
+        <result xml:space="preserve">You enter the rickety elevator and as soon as you turn to face the old lift handle, the elevator lurchs down a few feet and the door grill slams shut!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1169"></child>
+        </children>
+    </item>
+    <item nodeId="node-1169">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">But you aren't in anything at the moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1170"></child>
+        </children>
+    </item>
+    <item nodeId="node-1170">
+        <command xml:space="preserve">exit elevator</command>
+        <result xml:space="preserve">I only understood you as far as wanting to exit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1171"></child>
+        </children>
+    </item>
+    <item nodeId="node-1171">
+        <command xml:space="preserve">leave</command>
+        <result xml:space="preserve">But you aren't in anything at the moment.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1172"></child>
+        </children>
+    </item>
+    <item nodeId="node-1172">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Hotel Lobby
+An old timey hotel with only one thing of interest -
+...a wonky sissor hinge ancient paternoster elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1173"></child>
+        </children>
+    </item>
+    <item nodeId="node-1173">
+        <command xml:space="preserve">enter elevator</command>
+        <result xml:space="preserve">You enter the rickety elevator and as soon as you turn to face the old lift handle, the elevator lurchs down a few feet and the door grill slams shut!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1174"></child>
+        </children>
+    </item>
+    <item nodeId="node-1174">
+        <command xml:space="preserve">showme</command>
+        <result xml:space="preserve">Hotel Lobby - room
+    yourself - person
+    elevator - open container
+        lever handle - device
+        Bag of bricks
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1175"></child>
+        </children>
+    </item>
+    <item nodeId="node-1175">
+        <command xml:space="preserve">enter elevator</command>
+        <result xml:space="preserve">You enter the rickety elevator and as soon as you turn to face the old lift handle, the elevator lurchs down a few feet and the door grill slams shut!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1176"></child>
+        </children>
+    </item>
+    <item nodeId="node-1176">
+        <command xml:space="preserve">showme</command>
+        <result xml:space="preserve">Hotel Lobby - room
+    yourself - person
+    elevator - open container
+        lever handle - device
+        Bag of bricks
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1177">
+        <command xml:space="preserve">fall off bed</command>
+        <result xml:space="preserve">There is a basket you can jump into from the bed, but you can't jump from here currently as the landing would be to hard!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1178">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">(elevator)
+You are not inside the elevator currently!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1179"></child>
+        </children>
+    </item>
+    <item nodeId="node-1179">
+        <command xml:space="preserve">enter elevator</command>
+        <result xml:space="preserve">You enter the rickety elevator and as soon as you turn to face the old lift handle, the elevator lurches down a few feet and the door grill slams shut!
+
+You get into elevator.
+
+In elevator you can see lever handle and Bag of bricks.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1190"></child>
+            <child nodeId="node-1180"></child>
+        </children>
+    </item>
+    <item nodeId="node-1180">
+        <command xml:space="preserve">leave</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1181"></child>
+        </children>
+    </item>
+    <item nodeId="node-1181">
+        <command xml:space="preserve">enter elevator</command>
+        <result xml:space="preserve">But you're already in elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1182"></child>
+        </children>
+    </item>
+    <item nodeId="node-1182">
+        <command xml:space="preserve">exit elevator</command>
+        <result xml:space="preserve">You can't the elevator door is stuck tight, maybe if the elevator can be raised up to it's normal resting location.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1183"></child>
+        </children>
+    </item>
+    <item nodeId="node-1183">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">(elevator)
+You can't the elevator door is stuck tight, maybe if the elevator can be raised up to it's normal resting location.
+
+Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1184"></child>
+        </children>
+    </item>
+    <item nodeId="node-1184">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Hotel Lobby (in elevator)
+An old timey hotel with only one thing of interest -
+...a wonky sissor hinge ancient paternoster elevator.
+
+In elevator you can see lever handle and Bag of bricks.
+
+Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1185"></child>
+        </children>
+    </item>
+    <item nodeId="node-1185">
+        <command xml:space="preserve">pull lever</command>
+        <result xml:space="preserve">It is fixed in place.
+
+Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1186"></child>
+        </children>
+    </item>
+    <item nodeId="node-1186">
+        <command xml:space="preserve">push lever</command>
+        <result xml:space="preserve">It is fixed in place.
+
+Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1187"></child>
+        </children>
+    </item>
+    <item nodeId="node-1187">
+        <command xml:space="preserve">operate lever</command>
+        <result xml:space="preserve">the elevator grinds it seems too heavy to move up a few feet back into place.
+
+Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1188"></child>
+        </children>
+    </item>
+    <item nodeId="node-1188">
+        <command xml:space="preserve">crank lever</command>
+        <result xml:space="preserve">the elevator grinds it seems too heavy to move up a few feet back into place.
+
+Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1189"></child>
+        </children>
+    </item>
+    <item nodeId="node-1189">
+        <command xml:space="preserve">pull lever</command>
+        <result xml:space="preserve">It is fixed in place.
+
+Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1190">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">(elevator)
+Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1191"></child>
+        </children>
+    </item>
+    <item nodeId="node-1191">
+        <command xml:space="preserve">exit elevator</command>
+        <result xml:space="preserve">Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1193"></child>
+            <child nodeId="node-1192"></child>
+        </children>
+    </item>
+    <item nodeId="node-1192">
+        <command xml:space="preserve">get out of elevator</command>
+        <result xml:space="preserve">Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1193">
+        <command xml:space="preserve">enter elevator</command>
+        <result xml:space="preserve">But you're already in elevator.
+
+Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1194"></child>
+        </children>
+    </item>
+    <item nodeId="node-1194">
+        <command xml:space="preserve">exit elevator</command>
+        <result xml:space="preserve">Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1195"></child>
+        </children>
+    </item>
+    <item nodeId="node-1195">
+        <command xml:space="preserve">get out of elevator</command>
+        <result xml:space="preserve">Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1196"></child>
+        </children>
+    </item>
+    <item nodeId="node-1196">
+        <command xml:space="preserve">showme</command>
+        <result xml:space="preserve">Hotel Lobby - room
+    elevator - open container
+        yourself - person
+        lever handle - device
+        Bag of bricks
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1197">
+        <command xml:space="preserve">enter elevator</command>
+        <result xml:space="preserve">You enter the rickety elevator and as soon as you turn to face the old lift handle, the elevator lurches down a few feet and the door grill slams shut!
+
+You get into elevator.
+
+In elevator you can see lever handle and Bag of bricks.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1239"></child>
+            <child nodeId="node-1236"></child>
+            <child nodeId="node-1235"></child>
+            <child nodeId="node-1234"></child>
+            <child nodeId="node-1220"></child>
+            <child nodeId="node-1217"></child>
+            <child nodeId="node-1212"></child>
+            <child nodeId="node-1198"></child>
+        </children>
+    </item>
+    <item nodeId="node-1198">
+        <command xml:space="preserve">showme</command>
+        <result xml:space="preserve">Hotel Lobby - room
+    elevator - open container
+        yourself - person
+        lever handle - device
+        Bag of bricks
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1211"></child>
+            <child nodeId="node-1199"></child>
+        </children>
+    </item>
+    <item nodeId="node-1199">
+        <command xml:space="preserve">take bricks</command>
+        <result xml:space="preserve">Taken.
+
+Oh no you got to get out of here!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1209"></child>
+            <child nodeId="node-1200"></child>
+        </children>
+    </item>
+    <item nodeId="node-1200">
+        <command xml:space="preserve">throw bricks</command>
+        <result xml:space="preserve">Dropped.
+
+Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1201"></child>
+        </children>
+    </item>
+    <item nodeId="node-1201">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Hotel Lobby (in elevator)
+An old timey hotel with only one thing of interest -
+...a wonky sissor hinge ancient paternoster elevator.
+
+In elevator you can see Bag of bricks and lever handle.
+
+Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1202"></child>
+        </children>
+    </item>
+    <item nodeId="node-1202">
+        <command xml:space="preserve">throw bag of bricks out of elevator</command>
+        <result xml:space="preserve">I only understood you as far as wanting to throw Bag of bricks.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1203"></child>
+        </children>
+    </item>
+    <item nodeId="node-1203">
+        <command xml:space="preserve">throw bag of bricks out in hotel lobby</command>
+        <result xml:space="preserve">I only understood you as far as wanting to throw Bag of bricks.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1204"></child>
+        </children>
+    </item>
+    <item nodeId="node-1204">
+        <command xml:space="preserve">exit elevator</command>
+        <result xml:space="preserve">I only understood you as far as wanting to exit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1205"></child>
+        </children>
+    </item>
+    <item nodeId="node-1205">
+        <command xml:space="preserve">leave elevator</command>
+        <result xml:space="preserve">I only understood you as far as wanting to leave.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1206"></child>
+        </children>
+    </item>
+    <item nodeId="node-1206">
+        <command xml:space="preserve">showme</command>
+        <result xml:space="preserve">Hotel Lobby - room
+    elevator - open container
+        Bag of bricks
+        yourself - person
+        lever handle - device
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1207"></child>
+        </children>
+    </item>
+    <item nodeId="node-1207">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">You get out of elevator.
+
+Hotel Lobby
+An old timey hotel with only one thing of interest -
+...a wonky sissor hinge ancient paternoster elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1208"></child>
+        </children>
+    </item>
+    <item nodeId="node-1208">
+        <command xml:space="preserve">hop</command>
+        <result xml:space="preserve">You jump on the spot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1209">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Bag of bricks
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1210"></child>
+        </children>
+    </item>
+    <item nodeId="node-1210">
+        <command xml:space="preserve">throw bricks</command>
+        <result xml:space="preserve">Dropped.
+
+
+
+    *** Whew! You escaped the elevator! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1211">
+        <command xml:space="preserve">go inside elevator</command>
+        <result xml:space="preserve">You enter the rickety elevator and as soon as you turn to face the old lift handle, the elevator lurchs down a few feet and the door grill slams shut!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1212">
+        <command xml:space="preserve">pull lever</command>
+        <result xml:space="preserve">the elevator grinds it seems too heavy to move up a few feet back into place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1213"></child>
+        </children>
+    </item>
+    <item nodeId="node-1213">
+        <command xml:space="preserve">take bricks</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1214"></child>
+        </children>
+    </item>
+    <item nodeId="node-1214">
+        <command xml:space="preserve">throw bricks</command>
+        <result xml:space="preserve">Dropped.
+
+Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1215"></child>
+        </children>
+    </item>
+    <item nodeId="node-1215">
+        <command xml:space="preserve">pull lever</command>
+        <result xml:space="preserve">the elevator grinds it seems too heavy to move up a few feet back into place.
+
+Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1216"></child>
+        </children>
+    </item>
+    <item nodeId="node-1216">
+        <command xml:space="preserve">throw bricks at hotel lobby</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1217">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1218"></child>
+        </children>
+    </item>
+    <item nodeId="node-1218">
+        <command xml:space="preserve">go in elevator</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1219"></child>
+        </children>
+    </item>
+    <item nodeId="node-1219">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Hotel Lobby
+An old timey hotel with only one thing of interest -
+...a wonky sissor hinge ancient elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1220">
+        <command xml:space="preserve">leave</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1221"></child>
+        </children>
+    </item>
+    <item nodeId="node-1221">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">(elevator)
+You can't the elevator door is stuck tight, maybe if the elevator can be raised up to it's normal resting location.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1222"></child>
+        </children>
+    </item>
+    <item nodeId="node-1222">
+        <command xml:space="preserve">pull lever</command>
+        <result xml:space="preserve">the elevator grinds it seems too heavy to move up a few feet back into place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1223"></child>
+        </children>
+    </item>
+    <item nodeId="node-1223">
+        <command xml:space="preserve">throw bricks</command>
+        <result xml:space="preserve">(first taking Bag of bricks)
+Brick by brick you throw them through the elevator gate from the bag until there are none left and notice more of a spring to your steps in the elevator.
+
+Oh no you got to get out of here!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1224"></child>
+        </children>
+    </item>
+    <item nodeId="node-1224">
+        <command xml:space="preserve">take bag of bricks</command>
+        <result xml:space="preserve">You can't reach Bag of bricks from here.
+
+Oh no you got to get out of here!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1225"></child>
+        </children>
+    </item>
+    <item nodeId="node-1225">
+        <command xml:space="preserve">throw</command>
+        <result xml:space="preserve">(Bag of bricks)
+(first taking Bag of bricks)
+You can't reach Bag of bricks from here.
+
+Oh no you got to get out of here!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1226"></child>
+        </children>
+    </item>
+    <item nodeId="node-1226">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">Bag of bricks: You can't reach Bag of bricks from here.
+
+Oh no you got to get out of here!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1227"></child>
+        </children>
+    </item>
+    <item nodeId="node-1227">
+        <command xml:space="preserve">throw bag of bricks</command>
+        <result xml:space="preserve">(first taking Bag of bricks)
+You can't reach Bag of bricks from here.
+
+Oh no you got to get out of here!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1228"></child>
+        </children>
+    </item>
+    <item nodeId="node-1228">
+        <command xml:space="preserve">pull lever</command>
+        <result xml:space="preserve">Grabbing the lift handle you bring the elevator back up completely aligned to the egress and the rusty grate swings open!
+
+Oh no you got to get out of here!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1229"></child>
+        </children>
+    </item>
+    <item nodeId="node-1229">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">(elevator)
+You triumphantly leave the old elevator!
+
+Hotel Lobby
+An old timey hotel with only one thing of interest -
+...a wonky sissor hinge ancient paternoster elevator.
+
+You can see Bag of bricks here.
+
+Oh no you got to get out of here!
+
+
+
+    *** Whew! You escaped the elevator! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1230"></child>
+        </children>
+    </item>
+    <item nodeId="node-1230">
+        <command xml:space="preserve">hop</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1231"></child>
+        </children>
+    </item>
+    <item nodeId="node-1231">
+        <command xml:space="preserve">showme</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1232"></child>
+        </children>
+    </item>
+    <item nodeId="node-1232">
+        <command xml:space="preserve">exit elevator</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1233"></child>
+        </children>
+    </item>
+    <item nodeId="node-1233">
+        <command xml:space="preserve">showme</command>
+        <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1234">
+        <command xml:space="preserve">get out of elevator</command>
+        <result xml:space="preserve">Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1235">
+        <command xml:space="preserve">get in elevator</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1236">
+        <command xml:space="preserve">exit elvator</command>
+        <result xml:space="preserve">I only understood you as far as wanting to exit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1237"></child>
+        </children>
+    </item>
+    <item nodeId="node-1237">
+        <command xml:space="preserve">exit elevator</command>
+        <result xml:space="preserve">I only understood you as far as wanting to exit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1238"></child>
+        </children>
+    </item>
+    <item nodeId="node-1238">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1239">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">(elevator)
+You triumphantly leave the old elevator!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1259"></child>
+            <child nodeId="node-1258"></child>
+            <child nodeId="node-1240"></child>
+        </children>
+    </item>
+    <item nodeId="node-1240">
+        <command xml:space="preserve">showme</command>
+        <result xml:space="preserve">Hotel Lobby - room
+    elevator - open container
+        yourself - person
+        lever handle - device
+        Bag of bricks
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1257"></child>
+            <child nodeId="node-1241"></child>
+        </children>
+    </item>
+    <item nodeId="node-1241">
+        <command xml:space="preserve">status</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1242"></child>
+        </children>
+    </item>
+    <item nodeId="node-1242">
+        <command xml:space="preserve">relation</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1243"></child>
+        </children>
+    </item>
+    <item nodeId="node-1243">
+        <command xml:space="preserve">relations</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1244"></child>
+        </children>
+    </item>
+    <item nodeId="node-1244">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+[Rule "parse command rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1245"></child>
+        </children>
+    </item>
+    <item nodeId="node-1245">
+        <command xml:space="preserve">enter elevator</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "generate action rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "basic visibility rule" applies.]
+[Rule "basic accessibility rule" applies.]
+[Rule "access through barriers rule" applies.]
+[Rule "carrying requirements rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "requested actions require persuasion rule" applies.]
+[Rule "carry out requested actions rule" applies.]
+[Rule "descend to specific action-processing rule" applies.]
+[Rule "work out details of specific action rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "convert enter door into go rule" applies.]
+[Rule "convert enter compass direction into go rule" applies.]
+[Rule "can't enter what's already entered rule" applies.]
+[Rule "can't enter what's not enterable rule" applies.]
+[Rule "can't enter closed containers rule" applies.]
+[Rule "can't enter if this exceeds carrying capacity rule" applies.]
+[Rule "can't enter something carried rule" applies.]
+[Rule "implicitly pass through other barriers rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "standard entering rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "report player entering elevator" applies.]
+You enter the rickety elevator and as soon as you turn to face the old lift handle, the elevator lurchs down a few feet and the door grill slams shut!
+[Rule "last specific action-processing rule" applies.]
+
+[Rule "A first turn sequence rule" applies.]
+[Rule "scene change machinery rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "Every turn" applies.]
+Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+[Rule "timed events rule" applies.]
+[Rule "advance time rule" applies.]
+[Rule "update chronological records rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "scene change machinery rule" applies.]
+[Rule "adjust light rule" applies.]
+[Rule "note object acquisitions rule" applies.]
+[Rule "notify score changes rule" applies.]
+[Rule "parse command rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1246"></child>
+        </children>
+    </item>
+    <item nodeId="node-1246">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1247"></child>
+        </children>
+    </item>
+    <item nodeId="node-1247">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">(elevator)
+[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "generate action rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "basic visibility rule" applies.]
+[Rule "can't act in the dark rule" applies.]
+[Rule "basic accessibility rule" applies.]
+[Rule "carrying requirements rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "requested actions require persuasion rule" applies.]
+[Rule "carry out requested actions rule" applies.]
+[Rule "descend to specific action-processing rule" applies.]
+[Rule "work out details of specific action rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "standard examining rule" applies.]
+An old rusty elevator.
+
+[Rule "examine directions rule" applies.]
+[Rule "examine containers rule" applies.]
+In elevator are lever handle and Bag of bricks.
+
+[Rule "examine supporters rule" applies.]
+[Rule "examine devices rule" applies.]
+[Rule "examine undescribed things rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "report other people examining rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "A first turn sequence rule" applies.]
+[Rule "scene change machinery rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "Every turn" applies.]
+Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+[Rule "timed events rule" applies.]
+[Rule "advance time rule" applies.]
+[Rule "update chronological records rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "scene change machinery rule" applies.]
+[Rule "adjust light rule" applies.]
+[Rule "note object acquisitions rule" applies.]
+[Rule "notify score changes rule" applies.]
+[Rule "parse command rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1248"></child>
+        </children>
+    </item>
+    <item nodeId="node-1248">
+        <command xml:space="preserve">showme</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "generate action rule" applies.]
+Hotel Lobby - room
+    elevator - open container
+        yourself - person
+        lever handle - device
+        Bag of bricks
+
+[Rule "parse command rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1249"></child>
+        </children>
+    </item>
+    <item nodeId="node-1249">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "generate action rule" applies.]
+[Rule "standard set exiting variables rule" applies.]
+[Rule "announce items from multiple object lists rule" applies.]
+[Rule "set pronouns from items from multiple object lists rule" applies.]
+[Rule "before stage rule" applies.]
+[Rule "basic visibility rule" applies.]
+[Rule "basic accessibility rule" applies.]
+[Rule "carrying requirements rule" applies.]
+[Rule "instead stage rule" applies.]
+[Rule "requested actions require persuasion rule" applies.]
+[Rule "carry out requested actions rule" applies.]
+[Rule "descend to specific action-processing rule" applies.]
+[Rule "work out details of specific action rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "check player exiting from elevator" applies.]
+[Rule "convert exit into go out rule" applies.]
+[Rule "can't exit when not inside anything rule" applies.]
+[Rule "can't exit closed containers rule" applies.]
+[Rule "convert exit into get off rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "standard exiting rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "standard report exiting rule" applies.]
+You get out of elevator.
+
+[Rule "describe room emerged into rule" applies.]
+[Rule "determine visibility ceiling rule" applies.]
+[Rule "work out details of specific action rule" applies.]
+[Rule "investigate player's awareness before action rule" applies.]
+[Rule "player aware of his own actions rule" applies.]
+[Rule "check stage rule" applies.]
+[Rule "carry out stage rule" applies.]
+[Rule "declare everything unmentioned rule" applies.]
+[Rule "room description heading rule" applies.]
+Hotel Lobby
+[Rule "room description body text rule" applies.]
+An old timey hotel with only one thing of interest -
+...a wonky sissor hinge ancient paternoster elevator.
+
+[Rule "room description paragraphs about objects rule" applies.]
+[Rule "initialise locale description rule" applies.]
+[Rule "find notable locale objects rule" applies.]
+[Rule "standard notable locale objects rule" applies.]
+[Rule "interesting locale paragraphs rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "don't mention player's supporter in room descriptions rule" applies.]
+[Rule "don't mention scenery in room descriptions rule" applies.]
+[Rule "don't mention undescribed items in room descriptions rule" applies.]
+[Rule "set pronouns from items in room descriptions rule" applies.]
+[Rule "offer items to writing a paragraph about rule" applies.]
+[Rule "use initial appearance in room descriptions rule" applies.]
+[Rule "describe what's on scenery supporters in room descriptions rule" applies.]
+[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]
+[Rule "you-can-also-see rule" applies.]
+[Rule "check new arrival rule" applies.]
+[Rule "after stage rule" applies.]
+[Rule "investigate player's awareness after action rule" applies.]
+[Rule "report stage rule" applies.]
+[Rule "other people looking rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "last specific action-processing rule" applies.]
+[Rule "A first turn sequence rule" applies.]
+[Rule "scene change machinery rule" applies.]
+[Rule "every turn stage rule" applies.]
+[Rule "Every turn" applies.]
+[Rule "timed events rule" applies.]
+[Rule "advance time rule" applies.]
+[Rule "update chronological records rule" applies.]
+[Rule "A last turn sequence rule" applies.]
+[Rule "scene change machinery rule" applies.]
+[Rule "adjust light rule" applies.]
+[Rule "note object acquisitions rule" applies.]
+[Rule "notify score changes rule" applies.]
+[Rule "parse command rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1250"></child>
+        </children>
+    </item>
+    <item nodeId="node-1250">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1251"></child>
+        </children>
+    </item>
+    <item nodeId="node-1251">
+        <command xml:space="preserve">rules</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "generate action rule" applies.]
+Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.
+
+[Rule "parse command rule" applies.]
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1252"></child>
+        </children>
+    </item>
+    <item nodeId="node-1252">
+        <command xml:space="preserve">rules off</command>
+        <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]
+[Rule "generate action rule" applies.]
+Rules tracing now switched off. Type "rules" to switch it on again.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1253"></child>
+        </children>
+    </item>
+    <item nodeId="node-1253">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1254"></child>
+        </children>
+    </item>
+    <item nodeId="node-1254">
+        <command xml:space="preserve">actions</command>
+        <result xml:space="preserve">Actions listing on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1255"></child>
+        </children>
+    </item>
+    <item nodeId="node-1255">
+        <command xml:space="preserve">enter elevator</command>
+        <result xml:space="preserve">[entering elevator]
+You enter the rickety elevator and as soon as you turn to face the old lift handle, the elevator lurchs down a few feet and the door grill slams shut!
+[entering elevator - succeeded]
+
+Oh no you got to get out of here!
+Maybe there is a way to reduce the weight
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1256"></child>
+        </children>
+    </item>
+    <item nodeId="node-1256">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">[exiting]
+You get out of elevator.
+
+Hotel Lobby
+An old timey hotel with only one thing of interest -
+...a wonky sissor hinge ancient paternoster elevator.
+
+[exiting - succeeded]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1257">
+        <command xml:space="preserve">exit elevator</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1258">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Hotel Lobby
+An old timey hotel with only one thing of interest -
+...a wonky sissor hinge ancient elevator.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1259">
+        <command xml:space="preserve">enter elevator</command>
+        <result xml:space="preserve">You enter the rickety elevator and as soon as you turn to face the old lift handle, the elevator lurches down a few feet and the door grill slams shut!
+
+You get into elevator.
+
+In elevator you can see lever handle and Bag of bricks.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1260"></child>
+        </children>
+    </item>
+    <item nodeId="node-1260">
+        <command xml:space="preserve">exit elevator</command>
+        <result xml:space="preserve">You triumphantly leave the old elevator!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1261">
+        <command xml:space="preserve">ask stuffed animal</command>
+        <result xml:space="preserve">(for basket)
+(stuffed animal first taking basket)
+Stuffed animal has better things to do.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1262"></child>
+        </children>
+    </item>
+    <item nodeId="node-1262">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Bedroom (in bed)
+It's my person's old bedroom
+
+You can see basket (empty) here.
+
+In bed you can see decorative pillow (on which are stuffed animal and pillow mint).
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
