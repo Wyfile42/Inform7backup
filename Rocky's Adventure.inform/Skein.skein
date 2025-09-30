@@ -1,0 +1,2187 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1222">
+    <generator>Inform Mac Client (Inform version 1.82/6.41/10.1.2)</generator>
+    <item nodeId="node-1222">
+        <command xml:space="preserve">Rocky's Adventure</command>
+        <result xml:space="preserve">
+
+
+
+What Rocky Does When No One's Around
+An Interactive Fiction by Emily Seifert
+Release 1 / Serial number 250930 / Inform 7 v10.1.2 / D
+
+Bedroom (in the Bed)
+The room where the human resides for most of her time during the school year. It's cozy. A galaxy themed aesthetic fills the bedsheets on the bed in which you and your fellow plushies lay on top of. The human is gone until 3pm, including her roommates. 
+
+The way to leave the room is to the north. It's time to explore.
+
+On the Desk is Laptop.
+
+In the Bed you can see Pillows (on which is Plushies) and Rabbit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1435"></child>
+            <child nodeId="node-1433"></child>
+            <child nodeId="node-1415"></child>
+            <child nodeId="node-1411"></child>
+            <child nodeId="node-1404"></child>
+            <child nodeId="node-1399"></child>
+            <child nodeId="node-1383"></child>
+            <child nodeId="node-1380"></child>
+            <child nodeId="node-1370"></child>
+            <child nodeId="node-1368"></child>
+            <child nodeId="node-1363"></child>
+            <child nodeId="node-1322"></child>
+            <child nodeId="node-1321"></child>
+            <child nodeId="node-1314"></child>
+            <child nodeId="node-1310"></child>
+            <child nodeId="node-1293"></child>
+            <child nodeId="node-1229"></child>
+            <child nodeId="node-1228"></child>
+            <child nodeId="node-1226"></child>
+            <child nodeId="node-1224"></child>
+            <child nodeId="node-1223"></child>
+        </children>
+    </item>
+    <item nodeId="node-1223">
+        <command xml:space="preserve">use laptop</command>
+        <result xml:space="preserve">You need to be able use to reach the desk first. Maybe use the chair.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1224">
+        <command xml:space="preserve">use</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1225"></child>
+        </children>
+    </item>
+    <item nodeId="node-1225">
+        <command xml:space="preserve">use laptop</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1226">
+        <command xml:space="preserve">talk to rabbit</command>
+        <result xml:space="preserve">"You appraoch the brown-grey rabbit instead. 
+ Hi Rocky! What do you need?" the rabbit says.
+
+ You politely ask the rabbit for him and the others plushies to leave the pillows so you can use them.
+
+ "Oh! Okay! It would probably be a good change of scenery" it says as it convinces the others to leave. "Good luck with whatever you're doing! :)"
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1227"></child>
+        </children>
+    </item>
+    <item nodeId="node-1227">
+        <command xml:space="preserve">talk to brown rabbit</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1228">
+        <command xml:space="preserve">talk to plushies</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1229">
+        <command xml:space="preserve">talk rabbit</command>
+        <result xml:space="preserve">"You appraoch the brown-grey rabbit instead. 
+ Hi Rocky! What do you need?" the rabbit says.
+
+ You politely ask the rabbit for him and the others plushies to leave the pillows so you can use them.
+
+ "Oh! Okay! It would probably be a good change of scenery." it says as it convinces the others to leave. "Good luck with whatever you're doing! :)"
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1290"></child>
+            <child nodeId="node-1281"></child>
+            <child nodeId="node-1231"></child>
+            <child nodeId="node-1230"></child>
+        </children>
+    </item>
+    <item nodeId="node-1230">
+        <command xml:space="preserve">talk to rabbit</command>
+        <result xml:space="preserve">"You appraoch the brown-grey rabbit instead. 
+ Hi Rocky! What do you need?" the rabbit says.
+ You politely ask the rabbit for him and the others plushies to leave the pillows so you can use them.
+
+ "Oh! Okay! It would probably be a good change of scenery" it says as it convinces the others to leave. "Good luck with whatever you're doing! :)"
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1231">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">Now that your friends are no longer on the pillows, you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1250"></child>
+            <child nodeId="node-1241"></child>
+            <child nodeId="node-1232"></child>
+        </children>
+    </item>
+    <item nodeId="node-1232">
+        <command xml:space="preserve">throw pillows</command>
+        <result xml:space="preserve">one by one you toss the pillows over the edge of the bed. They seemed to have made quite the pile to break your stuffed fall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1233"></child>
+        </children>
+    </item>
+    <item nodeId="node-1233">
+        <command xml:space="preserve">leave bed</command>
+        <result xml:space="preserve">You jump on the pile of pillows as they cushion your fall to the floor.
+
+Bedroom
+The room where the human resides for most of her time during the school year. 
+
+The way to leave the room is to the north. It's time to explore.
+
+On the Desk is Laptop.
+
+You can also see Pillows here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1234"></child>
+        </children>
+    </item>
+    <item nodeId="node-1234">
+        <command xml:space="preserve">take pilows</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1235"></child>
+        </children>
+    </item>
+    <item nodeId="node-1235">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1236"></child>
+        </children>
+    </item>
+    <item nodeId="node-1236">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1237"></child>
+        </children>
+    </item>
+    <item nodeId="node-1237">
+        <command xml:space="preserve">use pillow</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1238"></child>
+        </children>
+    </item>
+    <item nodeId="node-1238">
+        <command xml:space="preserve">use pillow</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1239"></child>
+        </children>
+    </item>
+    <item nodeId="node-1239">
+        <command xml:space="preserve">use pillows</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1240"></child>
+        </children>
+    </item>
+    <item nodeId="node-1240">
+        <command xml:space="preserve">use pillows on door</command>
+        <result xml:space="preserve">I only understood you as far as wanting to use Pillows.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1241">
+        <command xml:space="preserve">throw pilllows</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1242"></child>
+        </children>
+    </item>
+    <item nodeId="node-1242">
+        <command xml:space="preserve">throw</command>
+        <result xml:space="preserve">(Pillows)
+one by one you toss the pillows over the edge of the bed. They seemed to have made quite the pile to break your stuffed fall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1243"></child>
+        </children>
+    </item>
+    <item nodeId="node-1243">
+        <command xml:space="preserve">leave</command>
+        <result xml:space="preserve">(the Bed)
+You jump on the pile of pillows as they cushion your fall to the floor.
+
+Bedroom
+The room where the human resides for most of her time during the school year. 
+
+The way to leave the room is to the north. It's time to explore.
+
+On the Desk is Laptop.
+
+You can also see Pillows here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1244"></child>
+        </children>
+    </item>
+    <item nodeId="node-1244">
+        <command xml:space="preserve">door</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1245"></child>
+        </children>
+    </item>
+    <item nodeId="node-1245">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1246"></child>
+        </children>
+    </item>
+    <item nodeId="node-1246">
+        <command xml:space="preserve">take pillow</command>
+        <result xml:space="preserve">That's hardly portable.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1247"></child>
+        </children>
+    </item>
+    <item nodeId="node-1247">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1248"></child>
+        </children>
+    </item>
+    <item nodeId="node-1248">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1249"></child>
+        </children>
+    </item>
+    <item nodeId="node-1249">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1250">
+        <command xml:space="preserve">throw</command>
+        <result xml:space="preserve">(Pillows)
+one by one you toss the pillows over the edge of the bed. They seemed to have made quite the pile to break your stuffed fall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1251"></child>
+        </children>
+    </item>
+    <item nodeId="node-1251">
+        <command xml:space="preserve">leave</command>
+        <result xml:space="preserve">(the Bed)
+You jump on the pile of pillows as they cushion your fall to the floor.
+
+Bedroom
+The room where the human resides for most of her time during the school year. 
+
+The way to leave the room is to the north. It's time to explore.
+
+On the Desk is Laptop.
+
+You can also see Pillows here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1274"></child>
+            <child nodeId="node-1252"></child>
+        </children>
+    </item>
+    <item nodeId="node-1252">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1270"></child>
+            <child nodeId="node-1258"></child>
+            <child nodeId="node-1253"></child>
+        </children>
+    </item>
+    <item nodeId="node-1253">
+        <command xml:space="preserve">take pillow</command>
+        <result xml:space="preserve">(Pillows)
+you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1254"></child>
+        </children>
+    </item>
+    <item nodeId="node-1254">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You're just too short to reach the doorknob. Maybe there's something you can stand on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1255"></child>
+        </children>
+    </item>
+    <item nodeId="node-1255">
+        <command xml:space="preserve">use pillows on door</command>
+        <result xml:space="preserve">I only understood you as far as wanting to use Pillows.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1256"></child>
+        </children>
+    </item>
+    <item nodeId="node-1256">
+        <command xml:space="preserve">use pillow</command>
+        <result xml:space="preserve">(Pillows)
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1257"></child>
+        </children>
+    </item>
+    <item nodeId="node-1257">
+        <command xml:space="preserve">door</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1258">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You place the pillow on the side of the door, and stand on top of it. You're able to reach the doorknob and open the door to the hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1259"></child>
+        </children>
+    </item>
+    <item nodeId="node-1259">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+You place the pillow on the side of the door, and stand on top of it. You're able to reach the doorknob and open the door to the hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1260"></child>
+        </children>
+    </item>
+    <item nodeId="node-1260">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+You place the pillow on the side of the door, and stand on top of it. You're able to reach the doorknob and open the door to the hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1261"></child>
+        </children>
+    </item>
+    <item nodeId="node-1261">
+        <command xml:space="preserve">leave</command>
+        <result xml:space="preserve">You jump on the pile of pillows as they cushion your fall to the floor.
+
+Bedroom
+The room where the human resides for most of her time during the school year. 
+
+The way to leave the room is to the north. It's time to explore.
+
+On the Desk is Laptop.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1262"></child>
+        </children>
+    </item>
+    <item nodeId="node-1262">
+        <command xml:space="preserve">leave door</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1263"></child>
+        </children>
+    </item>
+    <item nodeId="node-1263">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You place the pillow on the side of the door, and stand on top of it. You're able to reach the doorknob and open the door to the hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1264"></child>
+        </children>
+    </item>
+    <item nodeId="node-1264">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+You place the pillow on the side of the door, and stand on top of it. You're able to reach the doorknob and open the door to the hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1265"></child>
+        </children>
+    </item>
+    <item nodeId="node-1265">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+You place the pillow on the side of the door, and stand on top of it. You're able to reach the doorknob and open the door to the hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1266"></child>
+        </children>
+    </item>
+    <item nodeId="node-1266">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+You place the pillow on the side of the door, and stand on top of it. You're able to reach the doorknob and open the door to the hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1267"></child>
+        </children>
+    </item>
+    <item nodeId="node-1267">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+You place the pillow on the side of the door, and stand on top of it. You're able to reach the doorknob and open the door to the hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1268"></child>
+        </children>
+    </item>
+    <item nodeId="node-1268">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+You place the pillow on the side of the door, and stand on top of it. You're able to reach the doorknob and open the door to the hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1269"></child>
+        </children>
+    </item>
+    <item nodeId="node-1269">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1270">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1271"></child>
+        </children>
+    </item>
+    <item nodeId="node-1271">
+        <command xml:space="preserve">use pillows on door</command>
+        <result xml:space="preserve">I only understood you as far as wanting to use Pillows.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1272"></child>
+        </children>
+    </item>
+    <item nodeId="node-1272">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">You place the pillow on the side of the door, and stand on top of it. You're able to reach the doorknob and open the door to the hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1273"></child>
+        </children>
+    </item>
+    <item nodeId="node-1273">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+
+hallway
+ Yup, its a hallway. There's a beam in the middle of the space. Someone could run into that!  You can go west to the area of Skull Kid's room or east to where the living room and Monster Kid's room are.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1274">
+        <command xml:space="preserve">take pillow</command>
+        <result xml:space="preserve">That's hardly portable.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1278"></child>
+            <child nodeId="node-1275"></child>
+        </children>
+    </item>
+    <item nodeId="node-1275">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1276"></child>
+        </children>
+    </item>
+    <item nodeId="node-1276">
+        <command xml:space="preserve">use door</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1277"></child>
+        </children>
+    </item>
+    <item nodeId="node-1277">
+        <command xml:space="preserve">use pillows on door</command>
+        <result xml:space="preserve">I only understood you as far as wanting to use Pillows.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1278">
+        <command xml:space="preserve"> open door</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1279"></child>
+        </children>
+    </item>
+    <item nodeId="node-1279">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">You place the pillow on the side of the door, and stand on top of it. You're able to reach the doorknob and open the door to the hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1280"></child>
+        </children>
+    </item>
+    <item nodeId="node-1280">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+
+hallway
+ Yup, its a hallway. There's a beam in the middle of the space. Someone could run into that!  You can go west to the area of Skull Kid's room or east to where the living room and Monster Kid's room are.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1281">
+        <command xml:space="preserve">take pillow</command>
+        <result xml:space="preserve">Now that your friends are no longer on the pillows, you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1282"></child>
+        </children>
+    </item>
+    <item nodeId="node-1282">
+        <command xml:space="preserve">throw pillow</command>
+        <result xml:space="preserve">one by one you toss the pillows over the edge of the bed. They seemed to have made quite the pile to break your stuffed fall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1283"></child>
+        </children>
+    </item>
+    <item nodeId="node-1283">
+        <command xml:space="preserve">leave</command>
+        <result xml:space="preserve">You jump on the pile of pillows as they cushion your fall to the floor.
+
+Bedroom
+The room where the human resides for most of her time during the school year. 
+
+The way to leave the room is to the north. It's time to explore.
+
+On the Desk is Laptop.
+
+You can also see Pillows here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1284"></child>
+        </children>
+    </item>
+    <item nodeId="node-1284">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You're just too short to reach the doorknob. Maybe there's something you can stand on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1285"></child>
+        </children>
+    </item>
+    <item nodeId="node-1285">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+You're just too short to reach the doorknob. Maybe there's something you can stand on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1286"></child>
+        </children>
+    </item>
+    <item nodeId="node-1286">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening Bedroom door)
+You're just too short to reach the doorknob. Maybe there's something you can stand on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1287"></child>
+        </children>
+    </item>
+    <item nodeId="node-1287">
+        <command xml:space="preserve">take pillow</command>
+        <result xml:space="preserve">you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1288"></child>
+        </children>
+    </item>
+    <item nodeId="node-1288">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You're just too short to reach the doorknob. Maybe there's something you can stand on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1289"></child>
+        </children>
+    </item>
+    <item nodeId="node-1289">
+        <command xml:space="preserve">use pillow on door</command>
+        <result xml:space="preserve">I only understood you as far as wanting to use Pillows.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1290">
+        <command xml:space="preserve">look plushies</command>
+        <result xml:space="preserve">There's a variety of little plush toys placed gently on each pillow. They range from two tiny foxes, a white dog with a red target for an eye, and 4 bunnies of different shapes and sizes. The thin brown and grey rabbit sitting in front of the first pillow seems the most reasonable to talk to.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1291"></child>
+        </children>
+    </item>
+    <item nodeId="node-1291">
+        <command xml:space="preserve">talk to rabbit</command>
+        <result xml:space="preserve">"Hi Rocky! What do you need?" the rabbit says.
+ You politely ask the rabbit and the others plushies to leave the pillows so you can use them.
+
+ "Oh! Okay! Good luck with whatever you're doing! :)"
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1292"></child>
+        </children>
+    </item>
+    <item nodeId="node-1292">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">Now that your friends are no longer on the pillows, you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1293">
+        <command xml:space="preserve">talk plushies</command>
+        <result xml:space="preserve">As you attempt to ask the plushies to move, the white branded dog on top of the hoard interjects 
+ "Hey!" he says, "We aren't gonna move just because you asked us!!"
+
+ "Yeah! The foxes and smaller rabbits say, "We only follow what each other here on the pillows say! 
+
+ It looks as if you might need to find a more reasonable plushie.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1306"></child>
+            <child nodeId="node-1296"></child>
+            <child nodeId="node-1294"></child>
+        </children>
+    </item>
+    <item nodeId="node-1294">
+        <command xml:space="preserve">talk to plushies</command>
+        <result xml:space="preserve">As you attempt to ask the plushies to move, the white branded dog on top of the hoard interjects 
+ "Hey!" he says, "We aren't gonna move just because you asked us!!"
+
+ "Yeah! The foxes and smaller rabbits say, "We only follow what eachother here on the pillows say! 
+
+ It looks as if you might need to find a more reasonable plushie.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1295"></child>
+        </children>
+    </item>
+    <item nodeId="node-1295">
+        <command xml:space="preserve">talk to rabbit</command>
+        <result xml:space="preserve">"Hi Rocky! What do you need?" the rabbit says.
+ You politely ask the rabbit and the others plushies to leave the pillows so you can use them.
+
+ "Oh! Okay! Good luck with whatever you're doing! :)"
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1296">
+        <command xml:space="preserve">talk rabbit</command>
+        <result xml:space="preserve">"You appraoch the brown-grey rabbit instead. 
+ Hi Rocky! What do you need?" the rabbit says.
+
+ You politely ask the rabbit for him and the others plushies to leave the pillows so you can use them.
+
+ "Oh! Okay! It would probably be a good change of scenery." it says as it convinces the others to leave. "Good luck with whatever you're doing! :)"
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1297"></child>
+        </children>
+    </item>
+    <item nodeId="node-1297">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">Now that your friends are no longer on the pillows, you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1300"></child>
+            <child nodeId="node-1298"></child>
+        </children>
+    </item>
+    <item nodeId="node-1298">
+        <command xml:space="preserve">drop pillows</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1299"></child>
+        </children>
+    </item>
+    <item nodeId="node-1299">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">Now that your friends are no longer on the pillows, you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1300">
+        <command xml:space="preserve">drop</command>
+        <result xml:space="preserve">(Pillows)
+Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1301"></child>
+        </children>
+    </item>
+    <item nodeId="node-1301">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1302"></child>
+        </children>
+    </item>
+    <item nodeId="node-1302">
+        <command xml:space="preserve">throw pillows</command>
+        <result xml:space="preserve">one by one you toss the pillows over the edge of the bed. They seemed to have made quite the pile to break your stuffed fall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1303"></child>
+        </children>
+    </item>
+    <item nodeId="node-1303">
+        <command xml:space="preserve">leave</command>
+        <result xml:space="preserve">You jump on the pile of pillows as they cushion your fall to the floor.
+
+Bedroom
+The room where the human resides for most of her time during the school year. 
+
+The way to leave the room is to the north. It's time to explore.
+
+On the Desk is Laptop.
+
+You can also see Pillows here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1304"></child>
+        </children>
+    </item>
+    <item nodeId="node-1304">
+        <command xml:space="preserve">take pillow</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1305"></child>
+        </children>
+    </item>
+    <item nodeId="node-1305">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1306">
+        <command xml:space="preserve">leave</command>
+        <result xml:space="preserve">You get out of the Bed.
+
+Bedroom
+The room where the human resides for most of her time during the school year. 
+
+The way to leave the room is to the north. It's time to explore.
+
+On the Desk is Laptop.
+
+You can also see Rabbit here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1307"></child>
+        </children>
+    </item>
+    <item nodeId="node-1307">
+        <command xml:space="preserve">desk</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1308"></child>
+        </children>
+    </item>
+    <item nodeId="node-1308">
+        <command xml:space="preserve">look desk</command>
+        <result xml:space="preserve">It's a bit messy, but yet organized. The laptop is the only thing that peaks your curiosity.
+
+On the Desk is Laptop.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1309"></child>
+        </children>
+    </item>
+    <item nodeId="node-1309">
+        <command xml:space="preserve">look laptop</command>
+        <result xml:space="preserve">You see nothing special about Laptop.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1310">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">(Now the pillows)
+You can't reach Now the pillows from here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1313"></child>
+            <child nodeId="node-1311"></child>
+        </children>
+    </item>
+    <item nodeId="node-1311">
+        <command xml:space="preserve">look bed</command>
+        <result xml:space="preserve">You are on the bed, there are other plushies on the pillows behind you.
+
+In the Bed is Pillows.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1312"></child>
+        </children>
+    </item>
+    <item nodeId="node-1312">
+        <command xml:space="preserve">look pillows</command>
+        <result xml:space="preserve">(Now pillows)
+You see nothing special about Now pillows.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1313">
+        <command xml:space="preserve">hop</command>
+        <result xml:space="preserve">You jump on the spot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1314">
+        <command xml:space="preserve">take pillow</command>
+        <result xml:space="preserve">(Pillows)
+You don't want to move them when your plush friends are on top!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1315"></child>
+        </children>
+    </item>
+    <item nodeId="node-1315">
+        <command xml:space="preserve">talk rabbit</command>
+        <result xml:space="preserve">"You appraoch the brown-grey rabbit instead. 
+ Hi Rocky! What do you need?" the rabbit says.
+
+ You politely ask the rabbit for him and the others plushies to leave the pillows so you can use them.
+
+ "Oh! Okay! It would probably be a good change of scenery." it says as it convinces the others to leave. "Good luck with whatever you're doing! :)"
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1316"></child>
+        </children>
+    </item>
+    <item nodeId="node-1316">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">Now that your friends are no longer on the pillows, you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1317"></child>
+        </children>
+    </item>
+    <item nodeId="node-1317">
+        <command xml:space="preserve">throw pillows</command>
+        <result xml:space="preserve">one by one you toss the pillows over the edge of the bed. They seemed to have made quite the pile to break your stuffed fall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1318"></child>
+        </children>
+    </item>
+    <item nodeId="node-1318">
+        <command xml:space="preserve">jump off bed</command>
+        <result xml:space="preserve">You jump on the pile of pillows as they cushion your fall to the floor.
+
+Bedroom
+The room where the human resides for most of her time during the school year. 
+
+The way to leave the room is to the north. It's time to explore.
+
+On the Desk is Laptop.
+
+You can also see Pillows here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1319"></child>
+        </children>
+    </item>
+    <item nodeId="node-1319">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1320"></child>
+        </children>
+    </item>
+    <item nodeId="node-1320">
+        <command xml:space="preserve">take pillow</command>
+        <result xml:space="preserve">(Pillows)
+you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1321">
+        <command xml:space="preserve">take laptop</command>
+        <result xml:space="preserve">You can't reach Laptop from here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1322">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You would have to get out of the Bed first.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1350"></child>
+            <child nodeId="node-1332"></child>
+            <child nodeId="node-1326"></child>
+            <child nodeId="node-1323"></child>
+        </children>
+    </item>
+    <item nodeId="node-1323">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Path 1
+Skull Kid's room is to the south.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1324"></child>
+        </children>
+    </item>
+    <item nodeId="node-1324">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Skull Kid's Room
+ It's full of skull and meme memorabilia. Whatever a "meme" is you don't know.  There's a few of your stuffed friends on the bed in here.
+
+You can see Dog Boy here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1325"></child>
+        </children>
+    </item>
+    <item nodeId="node-1325">
+        <command xml:space="preserve">look bed</command>
+        <result xml:space="preserve"> The bedding is black with white skulls, and has red sheets underneath. Of all the plushies that reside on top when Skull Kid is gone, Dog Boy, the rotund golden retreiver, is the one you talk to the most.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1326">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Bedroom
+The room where the human resides for most of her time during the school year. 
+
+The way to leave the room is to the north. It's time to explore.
+
+On the Bed is Pillows (on which is Plushies).
+
+On the Desk is Laptop.
+
+You can also see Rabbit here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1331"></child>
+            <child nodeId="node-1327"></child>
+        </children>
+    </item>
+    <item nodeId="node-1327">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1328"></child>
+        </children>
+    </item>
+    <item nodeId="node-1328">
+        <command xml:space="preserve">bed</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1329"></child>
+        </children>
+    </item>
+    <item nodeId="node-1329">
+        <command xml:space="preserve">look bed</command>
+        <result xml:space="preserve">You are on the bed, there are other plushies on the pillows behind you.
+
+On the Bed is Pillows (on which is Plushies).
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1330"></child>
+        </children>
+    </item>
+    <item nodeId="node-1330">
+        <command xml:space="preserve">look pillows</command>
+        <result xml:space="preserve">There are 4 pillows neatly stacked in front of each other. They could make for some good cushions if not for your friends on top.
+
+On Pillows is Plushies.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1331">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hallway
+ You can go west to the area of Skull Kid's room or east to where the living room and Monster Kid's room are.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1332">
+        <command xml:space="preserve">leave</command>
+        <result xml:space="preserve">You may be made of fluff, but that would hurt!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1333"></child>
+        </children>
+    </item>
+    <item nodeId="node-1333">
+        <command xml:space="preserve">jump</command>
+        <result xml:space="preserve">You jump on the spot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1334"></child>
+        </children>
+    </item>
+    <item nodeId="node-1334">
+        <command xml:space="preserve">jump off bed</command>
+        <result xml:space="preserve">You may be made of fluff, but that would hurt!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1335"></child>
+        </children>
+    </item>
+    <item nodeId="node-1335">
+        <command xml:space="preserve">look bed</command>
+        <result xml:space="preserve">You are on the bed, there are other plushies on the pillows behind you.
+
+In the Bed are Pillows and Rabbit.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1336"></child>
+        </children>
+    </item>
+    <item nodeId="node-1336">
+        <command xml:space="preserve">look pillows</command>
+        <result xml:space="preserve">There are 4 pillows neatly stacked in front of each other. They could make for some good cushions if not for your friends on top.
+
+On Pillows is Plushies.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1337"></child>
+        </children>
+    </item>
+    <item nodeId="node-1337">
+        <command xml:space="preserve">look plushies</command>
+        <result xml:space="preserve">There's a variety of little plush toys placed gently on each pillow.  They range from two tiny foxes, a white dog with a red target for an eye, and 4 bunnies of different shapes and sizes. The thin brown and grey rabbit sitting in front of the first pillow seems the most reasonable to talk to.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1338"></child>
+        </children>
+    </item>
+    <item nodeId="node-1338">
+        <command xml:space="preserve">talk plushies</command>
+        <result xml:space="preserve">As you attempt to ask the plushies to move, the white branded dog on top of the hoard interjects 
+ "Hey!" he says, "We aren't gonna move just because you asked us!!"
+
+ "Yeah! The foxes and smaller rabbits say, "We only follow what eachother here on the pillows say! 
+
+ It looks as if you might need to find a more reasonable plushie.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1339"></child>
+        </children>
+    </item>
+    <item nodeId="node-1339">
+        <command xml:space="preserve">look rabbit</command>
+        <result xml:space="preserve">It's the plushie sitting in front of the pillows, it looks reasonable to talk to.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1340"></child>
+        </children>
+    </item>
+    <item nodeId="node-1340">
+        <command xml:space="preserve">talk rabbit</command>
+        <result xml:space="preserve">"You appraoch the brown-grey rabbit instead. 
+ Hi Rocky! What do you need?" the rabbit says.
+
+ You politely ask the rabbit for him and the others plushies to leave the pillows so you can use them.
+
+ "Oh! Okay! It would probably be a good change of scenery." it says as it convinces the others to leave. "Good luck with whatever you're doing! :)"
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1341"></child>
+        </children>
+    </item>
+    <item nodeId="node-1341">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">Now that your friends are no longer on the pillows, you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1342"></child>
+        </children>
+    </item>
+    <item nodeId="node-1342">
+        <command xml:space="preserve">throw pillows</command>
+        <result xml:space="preserve">one by one you toss the pillows over the edge of the bed. They seemed to have made quite the pile to break your stuffed fall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1343"></child>
+        </children>
+    </item>
+    <item nodeId="node-1343">
+        <command xml:space="preserve">jump off bef</command>
+        <result xml:space="preserve">I only understood you as far as wanting to jump.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1344"></child>
+        </children>
+    </item>
+    <item nodeId="node-1344">
+        <command xml:space="preserve">jump off bed</command>
+        <result xml:space="preserve">You jump on the pile of pillows as they cushion your fall to the floor.
+
+Bedroom
+The room where the human resides for most of her time during the school year. 
+
+The way to leave the room is to the north. It's time to explore.
+
+On the Desk is Laptop.
+
+You can also see Pillows here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1345"></child>
+        </children>
+    </item>
+    <item nodeId="node-1345">
+        <command xml:space="preserve">desk</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1346"></child>
+        </children>
+    </item>
+    <item nodeId="node-1346">
+        <command xml:space="preserve">look desk</command>
+        <result xml:space="preserve">It's a bit messy, but yet organized. The laptop is the only thing that peaks your curiosity.
+
+On the Desk is Laptop.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1347"></child>
+        </children>
+    </item>
+    <item nodeId="node-1347">
+        <command xml:space="preserve">look chair</command>
+        <result xml:space="preserve">It's a wooden chair with a cushioned seat and backing. You're just tall enough to climb on top.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1348"></child>
+        </children>
+    </item>
+    <item nodeId="node-1348">
+        <command xml:space="preserve">sit chair</command>
+        <result xml:space="preserve">You hoist your body onto the seat and get on the chair. You reposition yourself so you're facing the desk.
+
+Bedroom (on Chair)
+The room where the human resides for most of her time during the school year. 
+
+The way to leave the room is to the north. It's time to explore.
+
+On the Desk is Laptop.
+
+You can also see Pillows here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1349"></child>
+        </children>
+    </item>
+    <item nodeId="node-1349">
+        <command xml:space="preserve">use laptop</command>
+        <result xml:space="preserve">You open up the laptop and turn it on. It is just a bit slow like the human says it is, but it's still perfectly functional.
+ You find yourself flumbing on here for hours.
+
+ You don't know how it happened, but you end up watching an hour long deep dive video about a long gone childrens game. Time was lost to you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1350">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Path 2
+This is where Monster Kid's room is.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1358"></child>
+            <child nodeId="node-1351"></child>
+        </children>
+    </item>
+    <item nodeId="node-1351">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Monster Kid's Room
+It's pretty bare bones. There's a few scary looking monster figures on the dresser and the windowsill, fake plants are scattered around as well. You don't know why you walked in here...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1352"></child>
+        </children>
+    </item>
+    <item nodeId="node-1352">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Path 2
+This is where Monster Kid's room is.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1353"></child>
+        </children>
+    </item>
+    <item nodeId="node-1353">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway
+Yup, its a hallway. There's a beam in the middle of the space. Someone could run into that!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1354"></child>
+        </children>
+    </item>
+    <item nodeId="node-1354">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Path 1
+This is where Skull Kid's room is.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1355"></child>
+        </children>
+    </item>
+    <item nodeId="node-1355">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1356"></child>
+        </children>
+    </item>
+    <item nodeId="node-1356">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Skull Kid's Room
+It's full of skull and meme memorabilia. Whatever a "meme" is you don't know. There's a few of your stuffed friends in here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1357"></child>
+        </children>
+    </item>
+    <item nodeId="node-1357">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Path 1
+This is where Skull Kid's room is.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1358">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1359"></child>
+        </children>
+    </item>
+    <item nodeId="node-1359">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Living room
+It's a wide open space that includes a couch and even at tv! For some reason, there is a ballpit here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1362"></child>
+            <child nodeId="node-1360"></child>
+        </children>
+    </item>
+    <item nodeId="node-1360">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Kitchen
+It's connected to the living room. The sink has apparently been leaking since you moved in. You wonder what it would be like to try to make some food.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1361"></child>
+        </children>
+    </item>
+    <item nodeId="node-1361">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Living room
+It's a wide open space that includes a couch and even at tv! For some reason, there is a ballpit here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1362">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Entrance
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1363">
+        <command xml:space="preserve">look plushies</command>
+        <result xml:space="preserve">There's a variety of little plush toys placed gently on each pillow.  They range from two tiny foxes, a white dog with a red target for an eye, and 4 bunnies of different shapes and sizes. The thin brown and grey rabbit sitting in front of the first pillow seems the most reasonable to talk to.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1364"></child>
+        </children>
+    </item>
+    <item nodeId="node-1364">
+        <command xml:space="preserve">talk rabbit</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1365"></child>
+        </children>
+    </item>
+    <item nodeId="node-1365">
+        <command xml:space="preserve">look rabbi</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1366"></child>
+        </children>
+    </item>
+    <item nodeId="node-1366">
+        <command xml:space="preserve">look rabbit</command>
+        <result xml:space="preserve">It's the plushie sitting in front of the pillows, it looks reasonable to talk to.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1367"></child>
+        </children>
+    </item>
+    <item nodeId="node-1367">
+        <command xml:space="preserve">talk rabbit</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1368">
+        <command xml:space="preserve">look pillowz</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1369"></child>
+        </children>
+    </item>
+    <item nodeId="node-1369">
+        <command xml:space="preserve">look pillows</command>
+        <result xml:space="preserve">(Pillows)
+There are 4 pillows neatly stacked in front of each other. They could make for some good cushions if not for your friends on top.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1370">
+        <command xml:space="preserve">look pillows</command>
+        <result xml:space="preserve">There are 4 pillows neatly stacked in front of each other. They could make for some good cushions if not for your friends on top.
+
+On Pillows is Plushies.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1378"></child>
+            <child nodeId="node-1371"></child>
+        </children>
+    </item>
+    <item nodeId="node-1371">
+        <command xml:space="preserve">look plushiws</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1372"></child>
+        </children>
+    </item>
+    <item nodeId="node-1372">
+        <command xml:space="preserve">look plushies</command>
+        <result xml:space="preserve">There's a variety of little plush toys placed gently on each pillow. They range from two tiny foxes, a white dog with a red target for an eye, and 4 bunnies of different shapes and sizes. The thin brown and grey rabbit sitting in front of the first pillow seems the most reasonable to talk to.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1373"></child>
+        </children>
+    </item>
+    <item nodeId="node-1373">
+        <command xml:space="preserve">look rabbit</command>
+        <result xml:space="preserve">It's the plushie sitting in front of the pillows, it looks reasonable to talk to.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1374"></child>
+        </children>
+    </item>
+    <item nodeId="node-1374">
+        <command xml:space="preserve">talk rabbit</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1375"></child>
+        </children>
+    </item>
+    <item nodeId="node-1375">
+        <command xml:space="preserve">talk to rabbit</command>
+        <result xml:space="preserve">"Hi Rocky! What do you need?" the rabbit says. You politely ask the rabbit and the others plushies to leave the pillows so you can use them. "Oh! Okay! Good luck with whatever you're doing! :)"
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1376"></child>
+        </children>
+    </item>
+    <item nodeId="node-1376">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">Now that your friends are no longer on the pillows, you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1377"></child>
+        </children>
+    </item>
+    <item nodeId="node-1377">
+        <command xml:space="preserve">throw pillows</command>
+        <result xml:space="preserve">(first taking Pillows)
+Now that your friends are no longer on the pillows, you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1378">
+        <command xml:space="preserve">look bed</command>
+        <result xml:space="preserve">You are on the bed, there are other plushies on the pillows behind you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1379"></child>
+        </children>
+    </item>
+    <item nodeId="node-1379">
+        <command xml:space="preserve">look pillows</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1380">
+        <command xml:space="preserve">look ned</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1381"></child>
+        </children>
+    </item>
+    <item nodeId="node-1381">
+        <command xml:space="preserve">look be</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1382"></child>
+        </children>
+    </item>
+    <item nodeId="node-1382">
+        <command xml:space="preserve">look bed</command>
+        <result xml:space="preserve">You are on the bed, there are other plushies on the pillows behind you.
+
+On the Bed is Pillows (on which is Plushies).
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1383">
+        <command xml:space="preserve">look bed</command>
+        <result xml:space="preserve">You are on the bed, there are other plushies on the pillows behind you.
+
+In the Bed is Pillows.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1398"></child>
+            <child nodeId="node-1385"></child>
+            <child nodeId="node-1384"></child>
+        </children>
+    </item>
+    <item nodeId="node-1384">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">That's hardly portable.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1385">
+        <command xml:space="preserve">look pillows</command>
+        <result xml:space="preserve">There are 4 pillows neatly stacked in front of each other. They could make for some good cushions if not for your friends on top.
+
+On Pillows is Plushies.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1392"></child>
+            <child nodeId="node-1386"></child>
+        </children>
+    </item>
+    <item nodeId="node-1386">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">You don't want to move them when your plush friends are on top!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1387"></child>
+        </children>
+    </item>
+    <item nodeId="node-1387">
+        <command xml:space="preserve">look plushies</command>
+        <result xml:space="preserve">There's a variety of little plush toys placed gently on each pillow. They range from two tiny foxes, a white dog with a red target for an eye, and 4 bunnies of different shapes and sizes. The thin brown and grey rabbit sitting in front of the first pillow seems the most reasonable to talk to.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1388"></child>
+        </children>
+    </item>
+    <item nodeId="node-1388">
+        <command xml:space="preserve">look rabbit</command>
+        <result xml:space="preserve">It's the plushie sitting in front of the pillows, it looks reasonable to talk to.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1389"></child>
+        </children>
+    </item>
+    <item nodeId="node-1389">
+        <command xml:space="preserve">talk to rabbit</command>
+        <result xml:space="preserve">"Hi Rocky! What do you need?" the rabbit says.
+ You politely ask the rabbit and the others plushies to leave the pillows so you can use them.
+
+ "Oh! Okay! Good luck with whatever you're doing! :)"
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1390"></child>
+        </children>
+    </item>
+    <item nodeId="node-1390">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">Now that your friends are no longer on the pillows, you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1391"></child>
+        </children>
+    </item>
+    <item nodeId="node-1391">
+        <command xml:space="preserve">throw pillows</command>
+        <result xml:space="preserve">(first taking Pillows)
+Now that your friends are no longer on the pillows, you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1392">
+        <command xml:space="preserve">look plushies</command>
+        <result xml:space="preserve">There's a variety of little plush toys placed gently on each pillow.  They range from two tiny foxes, a white dog with a red target for an eye, and 4 bunnies of different shapes and sizes. The thin brown and grey rabbit sitting in front of the first pillow seems the most reasonable to talk to.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1393"></child>
+        </children>
+    </item>
+    <item nodeId="node-1393">
+        <command xml:space="preserve">talk to rabbit</command>
+        <result xml:space="preserve">"Hi Rocky! What do you need?" the rabbit says.
+ You politely ask the rabbit and the others plushies to leave the pillows so you can use them.
+
+ "Oh! Okay! Good luck with whatever you're doing! :)"
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1394"></child>
+        </children>
+    </item>
+    <item nodeId="node-1394">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">Now that your friends are no longer on the pillows, you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1395"></child>
+        </children>
+    </item>
+    <item nodeId="node-1395">
+        <command xml:space="preserve">throw pillows</command>
+        <result xml:space="preserve">one by one you toss the pillows over the edge of the bed. They seemed to have made quite the pile to break your stuffed fall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1396"></child>
+        </children>
+    </item>
+    <item nodeId="node-1396">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You would have to get out of the Bed first.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1397"></child>
+        </children>
+    </item>
+    <item nodeId="node-1397">
+        <command xml:space="preserve">leave</command>
+        <result xml:space="preserve">You get out of the Bed.
+
+Bedroom
+The room where the human resides for most of her time during the school year. 
+
+The way to leave the room is to the north. It's time to explore.
+
+On the Desk is Laptop.
+
+You can also see Pillows, Rabbit and Chair here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1398">
+        <command xml:space="preserve">look pillow</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1399">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Bedroom
+The room where the human resides for most of her time during the school year. 
+
+The way to leave the room is to the north. It's time to explore.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1401"></child>
+            <child nodeId="node-1400"></child>
+        </children>
+    </item>
+    <item nodeId="node-1400">
+        <command xml:space="preserve">pillows</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1401">
+        <command xml:space="preserve">look bed</command>
+        <result xml:space="preserve">You are on the bed, there are other plushies on the pillows behind you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1403"></child>
+            <child nodeId="node-1402"></child>
+        </children>
+    </item>
+    <item nodeId="node-1402">
+        <command xml:space="preserve">look pillows</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1403">
+        <command xml:space="preserve">look desk</command>
+        <result xml:space="preserve">On the desk is Laptop.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1404">
+        <command xml:space="preserve">leave</command>
+        <result xml:space="preserve">You get out of the Bed.
+
+Bedroom
+The room where the human resides for most of her time during the school year. 
+
+The way to leave the room is to the north. It's time to explore.
+
+On the Desk is Laptop.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1405"></child>
+        </children>
+    </item>
+    <item nodeId="node-1405">
+        <command xml:space="preserve">look desk</command>
+        <result xml:space="preserve">It's a bit messy, but yet organized. The laptop is the only thing that peaks your curiosity.
+
+On the Desk is Laptop.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1406"></child>
+        </children>
+    </item>
+    <item nodeId="node-1406">
+        <command xml:space="preserve">look laptop</command>
+        <result xml:space="preserve">It's a medium sized silver laptop with a lot of silly stickers plastered on top. It's amazing how many of these were able to survive being transferred between the old one and the current one.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1407"></child>
+        </children>
+    </item>
+    <item nodeId="node-1407">
+        <command xml:space="preserve">use laptop</command>
+        <result xml:space="preserve">You need to be able use to reach the desk first. Maybe use the chair in front of the desk.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1408"></child>
+        </children>
+    </item>
+    <item nodeId="node-1408">
+        <command xml:space="preserve">look chair</command>
+        <result xml:space="preserve">It's a wooden chair with a cushioned seat and backing. You're just tall enough to climb on top.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1409"></child>
+        </children>
+    </item>
+    <item nodeId="node-1409">
+        <command xml:space="preserve">sit chair</command>
+        <result xml:space="preserve">You hoist your body onto the seat and get on the chair. You reposition yourself so you're facing the desk.
+
+Bedroom (on Chair)
+The room where the human resides for most of her time during the school year. 
+
+The way to leave the room is to the north. It's time to explore.
+
+On the Desk is Laptop.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1410"></child>
+        </children>
+    </item>
+    <item nodeId="node-1410">
+        <command xml:space="preserve">use laptop</command>
+        <result xml:space="preserve">You open up the laptop and turn it on. It is just a bit slow like the human says it is, but it's still perfectly functional.
+ You find yourself flumbing on here for hours.
+
+ You don't know how it happened, but you end up watching an hour long deep dive video about a long gone childrens game. Time was lost to you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1411">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1412"></child>
+        </children>
+    </item>
+    <item nodeId="node-1412">
+        <command xml:space="preserve">talk rabbit</command>
+        <result xml:space="preserve">"You appraoch the brown-grey rabbit instead. 
+ Hi Rocky! What do you need?" the rabbit says.
+
+ You politely ask the rabbit for him and the others plushies to leave the pillows so you can use them.
+
+ "Oh! Okay! It would probably be a good change of scenery." it says as it convinces the others to leave. "Good luck with whatever you're doing! :)"
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1413"></child>
+        </children>
+    </item>
+    <item nodeId="node-1413">
+        <command xml:space="preserve">take pillows</command>
+        <result xml:space="preserve">Now that your friends are no longer on the pillows, you take them.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1414"></child>
+        </children>
+    </item>
+    <item nodeId="node-1414">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Pillows
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1415">
+        <command xml:space="preserve">hop</command>
+        <result xml:space="preserve">You jump on the spot.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1429"></child>
+            <child nodeId="node-1416"></child>
+        </children>
+    </item>
+    <item nodeId="node-1416">
+        <command xml:space="preserve">run</command>
+        <result xml:space="preserve">You'll have to say which compass direction to go in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1417"></child>
+        </children>
+    </item>
+    <item nodeId="node-1417">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1418"></child>
+        </children>
+    </item>
+    <item nodeId="node-1418">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1419"></child>
+        </children>
+    </item>
+    <item nodeId="node-1419">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1420"></child>
+        </children>
+    </item>
+    <item nodeId="node-1420">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1421"></child>
+        </children>
+    </item>
+    <item nodeId="node-1421">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1422"></child>
+        </children>
+    </item>
+    <item nodeId="node-1422">
+        <command xml:space="preserve">sleep</command>
+        <result xml:space="preserve">You aren't feeling especially drowsy.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1423"></child>
+        </children>
+    </item>
+    <item nodeId="node-1423">
+        <command xml:space="preserve">sit</command>
+        <result xml:space="preserve">What do you want to sit on?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1424"></child>
+        </children>
+    </item>
+    <item nodeId="node-1424">
+        <command xml:space="preserve">sit ground</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1425"></child>
+        </children>
+    </item>
+    <item nodeId="node-1425">
+        <command xml:space="preserve">sit on ground</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1426"></child>
+        </children>
+    </item>
+    <item nodeId="node-1426">
+        <command xml:space="preserve">sit on floor</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1427"></child>
+        </children>
+    </item>
+    <item nodeId="node-1427">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Example Location
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1428"></child>
+        </children>
+    </item>
+    <item nodeId="node-1428">
+        <command xml:space="preserve">sit on chait</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1429">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Bedroom (on the Bed)
+The room where the human resides for most of her time during the school year. 
+
+The way to leave the room is to the north. It's time to explore.
+
+You can see Pillows here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1430"></child>
+        </children>
+    </item>
+    <item nodeId="node-1430">
+        <command xml:space="preserve">look bed</command>
+        <result xml:space="preserve">You are on the bed, there are other plushies on the pillows behind you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1431"></child>
+        </children>
+    </item>
+    <item nodeId="node-1431">
+        <command xml:space="preserve">look pillows</command>
+        <result xml:space="preserve">(Pillows)
+You see nothing special about Pillows.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1432"></child>
+        </children>
+    </item>
+    <item nodeId="node-1432">
+        <command xml:space="preserve">look plushies</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1433">
+        <command xml:space="preserve">exit</command>
+        <result xml:space="preserve">(the Bed)
+You may be made of fluff, but that would hurt!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1434"></child>
+        </children>
+    </item>
+    <item nodeId="node-1434">
+        <command xml:space="preserve">leave</command>
+        <result xml:space="preserve">You may be made of fluff, but that would hurt!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1435">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1436"></child>
+        </children>
+    </item>
+    <item nodeId="node-1436">
+        <command xml:space="preserve">sit chair</command>
+        <result xml:space="preserve">You hoist your body onto the seat and get on the chair. You reposition yourself so you're facing the desk.
+
+Bedroom (on Chair)
+The room where the human resides for most of her time during the school year. 
+
+The way to leave the room is to the north. It's time to explore.
+
+On the Desk is Laptop.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1437"></child>
+        </children>
+    </item>
+    <item nodeId="node-1437">
+        <command xml:space="preserve">use laptop</command>
+        <result xml:space="preserve">You open up the laptop and turn it on. It is just a bit slow like the human says it is, but it's still perfectly functional.
+ You find yourself flumbing on here for hours.
+
+ You don't know how it happened, but you end up watching an hour long deep dive video about a long gone childrens game. Time was lost to you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
