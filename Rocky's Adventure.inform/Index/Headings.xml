@@ -9,43 +9,43 @@
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>1</key><dict>
-        <key>Filename</key><string>/Users/wyfile/Documents/Text Adventure.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/wyfile/Documents/Inform7 Shenanigans/Rocky's Adventure.inform/Source/story.ni</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>--</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>2</key><dict>
-        <key>Filename</key><string>/Users/wyfile/Documents/Text Adventure.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/wyfile/Documents/Inform7 Shenanigans/Rocky's Adventure.inform/Source/story.ni</string>
         <key>Line</key><integer>7</integer>
         <key>Title</key><string>Part 1- Bedroom</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>3</key><dict>
-        <key>Filename</key><string>/Users/wyfile/Documents/Text Adventure.inform/Source/story.ni</string>
-        <key>Line</key><integer>95</integer>
+        <key>Filename</key><string>/Users/wyfile/Documents/Inform7 Shenanigans/Rocky's Adventure.inform/Source/story.ni</string>
+        <key>Line</key><integer>97</integer>
         <key>Title</key><string>Part 2 - Outside bed</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>4</key><dict>
-        <key>Filename</key><string>/Users/wyfile/Documents/Text Adventure.inform/Source/story.ni</string>
-        <key>Line</key><integer>136</integer>
+        <key>Filename</key><string>/Users/wyfile/Documents/Inform7 Shenanigans/Rocky's Adventure.inform/Source/story.ni</string>
+        <key>Line</key><integer>137</integer>
         <key>Title</key><string>Part 3 - Everything else</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>5</key><dict>
-        <key>Filename</key><string>/Users/wyfile/Documents/Text Adventure.inform/Source/story.ni</string>
-        <key>Line</key><integer>175</integer>
+        <key>Filename</key><string>/Users/wyfile/Documents/Inform7 Shenanigans/Rocky's Adventure.inform/Source/story.ni</string>
+        <key>Line</key><integer>177</integer>
         <key>Title</key><string>Part 4 - The Room where people are living</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>6</key><dict>
-        <key>Filename</key><string>/Users/wyfile/Documents/Text Adventure.inform/Source/story.ni</string>
-        <key>Line</key><integer>235</integer>
+        <key>Filename</key><string>/Users/wyfile/Documents/Inform7 Shenanigans/Rocky's Adventure.inform/Source/story.ni</string>
+        <key>Line</key><integer>234</integer>
         <key>Title</key><string>Part 5 - Whatever happens in the food place</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>

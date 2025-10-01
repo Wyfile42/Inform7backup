@@ -32,6 +32,8 @@ Understand the command "talk" as something new. Understand "Talk to [something]"
  
 Understand the commands "exit", "leave", and "throw" as something new.
 
+Understand "grab[something]", and "pick up[something]" as taking.
+
 Getting out of is an action applying to one thing. Understand "get out of [something]" and "exit [something]", and "leave [something]" as getting out of.
 
 Throwing is an action applying to one carried thing.
@@ -88,8 +90,8 @@ Check getting out of the bed:
 	If Pillows are in the bed:
 		say "You may be made of fluff, but that would hurt!" instead;
 	Otherwise:
-		If Pillows are not on the bed:
-			say "You jump on the pile of pillows as they cushion your fall to the floor.";
+		If Pillows are not in the bed:
+			say "[first time]You jump on the pile of pillows as they cushion your fall to the floor.[only]";
 			now the player is in the bedroom.
 			
 Part 2 - Outside bed		
@@ -109,7 +111,7 @@ The description of laptop is "It's a medium sized silver laptop with a lot of si
 [puzzles, door, chair, laptop]
 Carry out taking:
 	if taking pillow:
-		say "you grab the small purple pillow from the pile. Maybe you can use this later." ;
+		say "you grab the small purple pillow from the pile. Maybe you can use this later.";
 		Now player has pillow.
 		
 Instead of unlocking bedroom door:
@@ -121,10 +123,9 @@ Instead of unlocking bedroom door:
 			now the bedroom door is unlocked.
 			
 Carry out sitting:
-	If sitting on chair:
+	If player is sitting on chair:
 		say "You hoist your body onto the seat and get on the chair. You reposition yourself so you're facing the desk.";
-	 now player is on the chair.
-	
+	move player to chair, without printing a room description.	
 Instead of using laptop:
 	if player is not on the chair:
 		say "You need to be able use to reach the desk first. Maybe use the chair in front of the desk.";
@@ -144,14 +145,15 @@ Path 2 is east of hallway. "Monster Kid's room is south. The living room is nort
 
 [The only thing in Monster Kid's room]
 
-Monster Kid's Room is south of Path 2. "[first time]It's pretty bare bones. There's a few scary looking monster figures on the dresser and the windowsill, fake plants are scattered around as well. [only] You don't know why you walked in here..."
+Monster Kid's Room is south of Path 2. "[first time]It's pretty bare bones. There's a few scary looking monster figures on the dresser and the windowsill, fake plants are scattered around as well. [only]The odd looking spinny chair does catch you eye though, you don't know why you walked in here..."
 
-Spinny Chair is an object in Monster Kid's Room.
-
+Spinny Chair is an enterable scenery supporter in Monster Kid's Room.
+Description of Spinny Chair is "Its a large black chair that looks way different then the others in the apartment. It looks as if it could spin."
+[WHY IS THIS BROKEN NOW?!!]
 Carry out sitting:
-	If sitting on Spinny Chair:
-		say " It apppears this chair caught your attention, it's different the one the human has. With nothing better to do you climb onto this special chair. It spins slightly in your struggle to get up. You wonder what that could mean."
-
+	If player is sitting on Spinny Chair:
+		say " It appears this chair caught your attention, it's different the one the human has. With nothing better to do you climb onto this special chair. It spins slightly in your struggle to get up. You wonder what that could mean.";
+		move player to spinny chair, without printing a room description.		
 Understand the command "spin" as something new. Understand "Spin[something]" and "Spin in [something]" as spinning.
 Spinning is an action applying to one thing.
 
@@ -168,75 +170,79 @@ Instead of spinning:
 Skull Kid's Room is south of Path 1. "[first time] It's full of skull and meme memorabilia. Whatever a 'meme' is you don't know. [only] There's a few of your stuffed friends on the bed in here."
 
 Skull Kid's Bed is scenery in Skull Kid's room.
-description of Skull Kid's Bed is " The bedding is black with white skulls, and has red sheets underneath. Of all the plushies that reside on top when Skull Kid is gone, Dog Boy, the rotund golden retreiver, is the one you talk to the most."
+description of Skull Kid's Bed is "The bedding is black with white skulls, and has red sheets underneath. Of all the plushies that reside on top when Skull Kid is gone, Dog Boy, the rotund golden retreiver, is the one you talk to the most."
 
 Dog Boy is in Skull Kid's Room.
 
 Part 4 - The Room where people are living
 
-[things to do, get on couch, watch tv, use ballpit]
+[things to do- get on couch, watch tv, use ballpit]
 
 [set up]
-Living room is north of Path 2. "It's a wide open space that includes a couch and even at tv! For some reason, there is a ballpit here."
+Living room is north of Path 2. "[first time]It's a wide open space that includes a couch and even at tv! For some reason, there is a ballpit here.[only] The connected kitchen is west of here."
 
 Ballpit is an enterable scenery container in the Living room.
 Description of ballpit is "It's a hexagonal pit next to the tv. It's full of colorful plastic balls. The pit even has a hoop! what fun!"
 Couch is an enterable scenery supporter in the living room.
 Description of Couch is "Its a dark couch that came with the apartment. It's a bit of a mess, but it does look comfortable."
-
 Coffee table is scenery in the Living room.
-Description of Coffee table is "Its a faux wooden table, with metal lining. It's usually a mess with food, gaming stuff, and candy on a coffin shaped tray. it's almost the same height as the couch. "
-
+Description of Coffee table is "Its a faux wooden table, with metal lining. It's usually a mess with food, gaming stuff, and candy on a coffin shaped tray. it's almost the same height as the couch."
 Tv is a scenery object in the living room.
 Description of Tv is "Its a large screen at the end of the living room. It's placed on top of a tall shelf. You wonder what would happen if you turn it on."
 Tv remote is on the coffee table.
 description of Tv remote is "it's a thing rectangle with a lot of buttons. Somehow this turns on the Tv."
 Understand "remote" as Tv remote.
 
-Understand the commmands "turn on" and "play" as something new.
+Turning on is an action applying to a thing.
+Understand "turn on[something]" and "turning on[something]" as turning on.
 
-Turning on is an action applying to one thing.
-Understand "Turn on [something]" and "Turn [something] on" as turning on.
-
-Playing is an action applying to one thing.
-Understand "Play in [something]", "play [something]", and "play with [something]." as playing.
+Playing is an action ax laptoppplying to a thing.
+Understand "Play[something]", "play with[something]", and "play in[something]" as playing.
 
 [puzzles]
 Carry out sitting: 
-	If sitting in couch:
+	If player is sitting on couch:
 		say "It's a lot easy to get onto then the chair. Not only that theres more room for you to stretch! This is awesome! There's a good view of the tv from here, just need to turn it on.";
-		Now player is on the couch.
+		move player to couch, without printing a room description.
 
 Instead of taking Tv Remote:
-	If player is not in couch:
+	If player is not on couch:
 		say "You'd be better off reaching the coffee table from the couch.";
 	Otherwise:
-		If player is in couch:
+		If player is on couch:
 			say "You grab the remote off the coffee table. You think this device is what turns on the tv.";
 			Now player has Tv remote.
 	
 Instead of turning on Tv:
-	If player doesn't have remote:
+	If player is not holding remote:
 		say "How would you even turn this on? There must be something you can use on the coffee table.";
 	Otherwise:
-		If player does have remote:
-			say "You turn on the tv. The screen displays the show Monster Kid watches when the human is trying to sleep. It appear to be a drama about the life of a serial killer. Unfortunetly, you get invested."
+		If player is holding remote:
+			say "You turn on the tv. The screen displays the show Monster Kid watches when the human is trying to sleep. It appear to be a drama about the life of a serial killer. Unfortunately, you get invested."
 		
 Carry out using:
-	If player is using ballpit:
+	if using ballpit:
 		say "You hop in the ballpit. It's full of multicolored balls. You have the uge to play inside.";
-		Now player is in ballpit.
-		
+		move player to ballpit, without printing a room description.		
 Carry out playing:
 	if player is in ballpit:
 		say "You mess around in the ballpit, the texture feels nice against your fur. You even attempt to throw some in the hoop. It's a blast!";
 	otherwise:
 		if player is not in ballpit:
 			say "You need to be inside the ballpit to play with it."
-			
+			  
 Part 5 - Whatever happens in the food place
 [Kitchen] 
 
-Kitchen is west of the Living room. "It's connected to the wide open space that is living room. The sink has apparently been leaking since you moved in. You wonder what it would be like to try to make some food."
+Kitchen is west of the Living room. "It's connected to the wide open space that is living room. The sink has apparently been leaking since you moved in. Getting a snack sounds good right about now."
 
+Fridge is a container in the kitchen. There are snacks inside fridge. 
+Description of the Fridge is " It's the cold place where the food is stored! There's a lot of options between the 3 humans."
+
+Stove is an object in the kitchen. 
+Description of stove is "It's where they cook food. You hear it's super hot. You don't wanna test it."
+
+Instead of using stove:
+	say "You'd burn if you use that."	
+	
 Entrance is north of the Living Room. "It's the way out of here. Though, you don't really know why you'd leave."
