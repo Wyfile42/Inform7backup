@@ -133,10 +133,9 @@ Instead of unlocking bedroom door:
 Instead of using desk:
 	say "You can't reach it wihtout the chair."
 			
-Carry out sitting:
-	If player is sitting on chair:
-		say "You hoist your body onto the seat and get on the chair. You reposition yourself so you're facing the desk.";
-		Now player is on Chair.
+instead of sitting chair:
+	say "You hoist your body onto the seat and get on the chair. You reposition yourself so you're facing the desk.";
+	Now player is on Chair.
 	
 Instead of using laptop:
 	if player is not on chair:
@@ -144,9 +143,7 @@ Instead of using laptop:
 	otherwise:
 		if player is on chair:
 			say "You open up the laptop and turn it on. It is just a bit slow like the human says it is, but it's still perfectly functional.[line break] You find yourself fumbling on here for hours.[paragraph break] 
-		You don't know how it happened, but you end up watching an hour long deep dive video about a long gone childrens game. Time was lost to you."
-		
-After using laptop:
+		You don't know how it happened, but you end up watching an hour long deep dive video about a long gone childrens game. Time was lost to you.";
 	Now time of day is 3:00 PM.
 	
 Part 3 - halls and roommates rooms	
@@ -157,7 +154,7 @@ Hallway is north of bedroom door. "[first time] Yup, its a hallway. There's a be
 
 Path 1 is west of hallway. "Skull Kid's room is to the south.  The Human's room, Monster Kid's room and the living room are east of here."
 
-Path 2 is east of hallway. "Monster Kid's room is south. The living room is north of here."
+Path 2 is east of hallway. "Monster Kid's room is south. The living room is north of here. Hallway is to the west."
 
 [The only thing in Monster Kid's room]
 
@@ -166,23 +163,20 @@ Monster Kid's Room is south of Path 2. "[first time]It's pretty bare bones. Ther
 Spinny Chair is an enterable scenery supporter in Monster Kid's Room.
 Description of Spinny Chair is "Its a large black chair that looks way different then the others in the apartment. It looks as if it could spin."
 [WHY IS THIS BROKEN NOW?!!]
-Carry out sitting:
-	If player is sitting on Spinny Chair:
-		say " It appears this chair caught your attention, it's different the one the human has. With nothing better to do you climb onto this special chair. It spins slightly in your struggle to get up. You wonder what that could mean.";
-		Now player is on Spinny Chair.		
+Instead of sitting spinny chair:
+	say " It appears this chair caught your attention, it's different the one the human has. With nothing better to do you climb onto this special chair. It spins slightly in your struggle to get up. You wonder what that could mean.";
+	Move player to Spinny Chair, without printing a room description.
+			
 Understand the command "spin" as something new. Understand "Spin[something]" and "Spin in [something]" as spinning.
 Spinning is an action applying to one thing.
 
-Instead of spinning:
-	If player is not on Spinny Chair:
-		say "Why would you need to spin right now?";
-	otherwise: 
-		if player is on Spinny Chair:
-			say "You use your long plush tail to get the chair to move. It starts spinning. Faster and faster you feel the forces hit your plastic eyes. You've never felt more alive in your life. You keep the momentum up until you feel dizzy."
-			
-After spinning in Spinny chair:
-	Now time of day is 12 PM.
+Instead of spinning spinny chair:
+	say "You use your long plush tail to get the chair to move. It starts spinning. Faster and faster you feel the forces hit your plastic eyes. You've never felt more alive in your life. You keep the momentum up until you feel dizzy.";
+	Now time of day is 12:00 PM.
+
 	
+Does the player mean spinning spinny chair: it is very likely.
+					
 Part 4 - Mini Skull Kid part
 [Skull kid Room]
 
@@ -214,6 +208,7 @@ Carry out entering:
 Carry out napping:
 	if player is in Skull Kid's bed:
 		say "You feel your plastic eyes get heavy and you fall asleep. Dreaming stuffed platypus dreams.";
+		Now time of day is 3:00 PM;
 	Otherwise:
 		if player is not in Skull Kid's bed:
 			say "there's no good place to nap right now."
@@ -221,9 +216,6 @@ Carry out napping:
 Carry out getting out of:
 	if getting out of Skull Kid's bed:
 		say "You get off the bed easily. Don't question how you're able to get off this bed quickly instead of your humans. Don't worry about it :)."
-
-After napping:
-	Now time of day is 3 PM.
 	
 Part 5 - The Room where people are living
 
@@ -238,44 +230,37 @@ Couch is an enterable scenery supporter in the living room.
 Description of Couch is "Its a dark couch that came with the apartment. It's a bit of a mess, but it does look comfortable."
 Coffee table is undescribed scenery in the Living room.
 Description of Coffee table is "Its a faux wooden table, with metal lining. It's usually a mess with food, gaming stuff, and candy on a coffin shaped tray. it's almost the same height as the couch."
-Tv is a scenery object in the living room.
+Tv is a scenery object in the living room. 
 Description of Tv is "Its a large screen at the end of the living room. It's placed on top of a tall shelf. You wonder what would happen if you turn it on."
 Tv remote is on the coffee table.
 description of Tv remote is "it's a thing rectangle with a lot of buttons. Somehow this turns on the Tv."
 Understand "remote" as Tv remote.
 
 Turning on is an action applying to a thing.
-Understand "turn on[something]" and "turning on[something]" as turning on.
+Understand "turn on[something]" and "turning on[something]", "switch [something]", and "switch on [something]" as turning on.
 
 Playing is an action applying to a thing.
 Understand "Play[something]", "play with[something]", and "play in[something]" as playing.
 
 [puzzles]
-Carry out sitting: 
-	If player is sitting on couch:
-		say "It's a lot easy to get onto then the chair. Not only that theres more room for you to stretch! This is awesome! There's a good view of the tv from here, just need to turn it on.";
-		Now player is on Couch.
+Instead of sitting couch:
+	say "It's a lot easy to get onto then the chair. Not only that theres more room for you to stretch! This is awesome! There's a good view of the tv from here, just need to turn it on.";
+		move player to couch, without printing a room description.
 		
 Instead of using Coffee Table:
 	say "You're better off getting on the couch first."
 	
-Instead of taking Tv Remote:
-	If player is not on couch:
-		say "You'd be better off reaching the coffee table from the couch.";
-	Otherwise:
-		If player is on couch:
-			say "You grab the remote off the coffee table. You think this device is what turns on the tv.";
-			Now player has Tv remote.
+Before taking Tv remote when player is on couch:
+	If player is on couch:
+		say "You grab the remote off the coffee table. You think this device is what turns on the tv.";
+		Now player has Tv remote instead;
+	otherwise:
+		say "You'd be better off reaching the coffee table from the couch.".
 	
 Instead of turning on Tv:
-	If player is not holding remote:
-		say "How would you even turn this on? There must be something you can use on the coffee table.";
-	Otherwise:
-		If player is holding remote:
-			say "You turn on the tv. The screen displays the show Monster Kid watches when the human is trying to sleep. It appear to be a drama about the life of a serial killer. Unfortunately, you get invested."
-	
-After Turning on Tv:
-	Now Time of day is 3 PM.
+	If player has tv remote:
+		say "You turn on the tv. The screen displays the show Monster Kid watches when the human is trying to sleep. It appear to be a drama about the life of a serial killer. Unfortunately, you get invested.";
+		Now Time of day is 3:00 PM.
 	
 Carry out using:
 	if using ballpit:
@@ -335,7 +320,7 @@ Carry out eating:
 		say "you eat what appears to be an apple, some cheese, and some bread (gluten free). You hope the human and her roommates will forgive you for your actions today. In your defense, they were delicious." 
 
 After eating snacks:
-	Now time of day is 3 PM.
+	Now time of day is 3:00 PM.
 	
 Instead of using Sink:
 	say "You don't to make the sink leak even more."
