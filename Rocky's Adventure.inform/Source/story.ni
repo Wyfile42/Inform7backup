@@ -236,7 +236,7 @@ Tv remote is on the coffee table.
 description of Tv remote is "it's a thing rectangle with a lot of buttons. Somehow this turns on the Tv."
 Understand "remote" as Tv remote.
 
-Turning on is an action applying to a thing.
+Understand the command "turning on" as something new. Turning on is an action applying to one thing. 
 Understand "turn on[something]" and "turning on[something]", "switch [something]", and "switch on [something]" as turning on.
 
 Playing is an action applying to a thing.
