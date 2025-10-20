@@ -236,7 +236,7 @@ Tv remote is on the coffee table.
 description of Tv remote is "it's a thing rectangle with a lot of buttons. Somehow this turns on the Tv."
 Understand "remote" as Tv remote.
 
-Understand the command "turning on" as something new. Turning on is an action applying to one thing. 
+Turning on is an action applying to one thing. 
 Understand "turn on[something]" and "turning on[something]", "switch [something]", and "switch on [something]" as turning on.
 
 Playing is an action applying to a thing.
@@ -257,10 +257,10 @@ Before taking Tv remote when player is on couch:
 	otherwise:
 		say "You'd be better off reaching the coffee table from the couch.".
 	
-Instead of turning on Tv:
+[Instead of turning on Tv:
 	If player has tv remote:
 		say "You turn on the tv. The screen displays the show Monster Kid watches when the human is trying to sleep. It appear to be a drama about the life of a serial killer. Unfortunately, you get invested.";
-		Now Time of day is 3:00 PM.
+		Now Time of day is 3:00 PM.]
 	
 Carry out using:
 	if using ballpit:
